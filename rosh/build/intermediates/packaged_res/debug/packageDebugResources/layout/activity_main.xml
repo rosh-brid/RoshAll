@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:id="@+id/pusat"
+     tools:context=".MainActivity">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical"
+         android:id="@+id/root_utama">
+
+        <FrameLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:background="@color/bg">
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/nav"
+                 android:layout_marginStart="10dp"
+                 android:id="@+id/nav"
+                 android:layout_gravity="center_vertical|start" />
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:gravity="center"
+                 android:layout_gravity="center">
+
+                <ImageView
+                     android:layout_height="35dp"
+                     android:layout_width="35dp"
+                     android:src="@drawable/ikon"
+                     android:layout_marginEnd="5dp" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="18sp"
+                     android:fontFamily="@font/alkdots"
+                     android:textStyle="bold"
+                     android:text="@string/nama_app" />
+
+            </LinearLayout>
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/github"
+                 android:layout_marginEnd="10dp"
+                 android:id="@+id/git"
+                 android:layout_gravity="center_vertical|end" />
+
+        </FrameLayout>
+
+        <ScrollView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:padding="5dp">
+
+            <GridLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:layout_gravity="center_horizontal"
+                 android:columnCount="3">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:background="@drawable/bg_kotak"
+                     android:layout_margin="5dp"
+                     android:padding="10dp"
+                     android:orientation="vertical"
+                     android:backgroundTint="@color/ui_bg"
+                     android:id="@+id/terminal">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/terminal"
+                         android:layout_margin="3dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="75dp"
+                         android:gravity="center"
+                         android:layout_margin="2dp"
+                         android:textSize="16sp"
+                         android:text="Terminal"
+                         android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:background="@drawable/bg_kotak"
+                     android:layout_margin="5dp"
+                     android:padding="10dp"
+                     android:orientation="vertical"
+                     android:backgroundTint="@color/ui_bg"
+                     android:id="@+id/code">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/kode_editor"
+                         android:layout_margin="3dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="75dp"
+                         android:gravity="center"
+                         android:layout_margin="2dp"
+                         android:textSize="16sp"
+                         android:text="@string/tombol_kode"
+                         android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:background="@drawable/bg_kotak"
+                     android:layout_margin="5dp"
+                     android:padding="10dp"
+                     android:orientation="vertical"
+                     android:backgroundTint="@color/ui_bg"
+                     android:id="@+id/berkas">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/folder"
+                         android:layout_margin="3dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="75dp"
+                         android:gravity="center"
+                         android:layout_margin="2dp"
+                         android:textSize="16sp"
+                         android:text="@string/tombol_berkas"
+                         android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:background="@drawable/bg_kotak"
+                     android:layout_margin="5dp"
+                     android:padding="10dp"
+                     android:orientation="vertical"
+                     android:backgroundTint="@color/ui_bg"
+                     android:id="@+id/gambar">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/gambar"
+                         android:layout_margin="3dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="75dp"
+                         android:gravity="center"
+                         android:layout_margin="2dp"
+                         android:textSize="16sp"
+                         android:text="@string/tombol_gambar"
+                         android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:background="@drawable/bg_kotak"
+                     android:layout_margin="5dp"
+                     android:padding="10dp"
+                     android:orientation="vertical"
+                     android:backgroundTint="@color/ui_bg"
+                     android:id="@+id/video">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/video"
+                         android:layout_margin="3dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="75dp"
+                         android:gravity="center"
+                         android:layout_margin="2dp"
+                         android:textSize="16sp"
+                         android:text="@string/tombol_video"
+                         android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:background="@drawable/bg_kotak"
+                     android:layout_margin="5dp"
+                     android:padding="10dp"
+                     android:orientation="vertical"
+                     android:backgroundTint="@color/ui_bg"
+                     android:id="@+id/musik">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/musik"
+                         android:layout_margin="3dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="75dp"
+                         android:gravity="center"
+                         android:layout_margin="2dp"
+                         android:textSize="16sp"
+                         android:text="@string/tombol_musik"
+                         android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:gravity="center"
+                     android:background="@drawable/bg_kotak"
+                     android:layout_margin="5dp"
+                     android:padding="10dp"
+                     android:orientation="vertical"
+                     android:backgroundTint="@color/ui_bg"
+                     android:id="@+id/browser">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/browser"
+                         android:layout_margin="3dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="75dp"
+                         android:gravity="center"
+                         android:layout_margin="2dp"
+                         android:textSize="16sp"
+                         android:text="Browser"
+                         android:textStyle="italic" />
+
+                </LinearLayout>
+
+            </GridLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="310dp"
+         android:background="@color/bg"
+         android:orientation="vertical"
+         android:layout_gravity="start"
+         android:id="@+id/root_drawer">
+
+        <FrameLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:background="@drawable/bg_kotak"
+             android:layout_margin="10dp"
+             android:backgroundTint="@color/ui_ungu">
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/keluar"
+                 android:layout_marginStart="10dp"
+                 android:id="@+id/keluar"
+                 android:layout_gravity="center_vertical|start" />
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:gravity="center"
+                 android:orientation="horizontal"
+                 android:id="@+id/tema"
+                 android:layout_gravity="center">
+
+                <ImageView
+                     android:layout_height="25dp"
+                     android:layout_width="25dp"
+                     android:layout_marginEnd="5dp"
+                     android:src="@drawable/bulan"
+                     android:id="@+id/gambar_tema" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="16sp"
+                     android:id="@+id/nama_tema"
+                     android:textStyle="italic"
+                     android:text="@string/tombol_tema" />
+
+            </LinearLayout>
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/tutup"
+                 android:layout_marginEnd="10dp"
+                 android:id="@+id/tutup"
+                 android:layout_gravity="center_vertical|end" />
+
+        </FrameLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_marginBottom="10dp"
+             android:textSize="16sp"
+             android:textColor="@color/ungu"
+             android:layout_marginTop="30dp"
+             android:textStyle="italic|bold"
+             android:layout_gravity="center_horizontal"
+             android:text="@string/judul_menu" />
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:orientation="vertical"
+             android:layout_marginTop="5dp">
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center_vertical"
+                 android:padding="10dp"
+                 android:layout_margin="3dp"
+                 android:orientation="horizontal"
+                 android:id="@+id/bahasa">
+
+                <ImageView
+                     android:layout_height="25dp"
+                     android:layout_width="25dp"
+                     android:src="@drawable/bahasa"
+                     android:layout_marginEnd="10dp"
+                     android:layout_marginStart="20dp" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="14sp"
+                     android:textStyle="bold|italic"
+                     android:text="@string/tombol_bahasa" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

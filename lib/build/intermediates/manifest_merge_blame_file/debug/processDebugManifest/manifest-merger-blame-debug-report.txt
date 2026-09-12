@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="rosh.lib" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+7-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:4:5-77
+7-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:4:22-74
+8    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+8-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:5:5-77
+8-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:5:22-75
+9    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+9-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:6:5-76
+9-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:6:22-74
+10    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+10-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:7:5-89
+10-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:7:22-86
+11
+12    <application android:requestLegacyExternalStorage="true" >
+12-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:9:5-29:19
+12-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:10:9-52
+13        <service
+13-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:12:9-19:19
+14            android:name="rosh.lib.exec.ShellCustom"
+14-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:13:13-53
+15            android:exported="true"
+15-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:15:13-36
+16            android:foregroundServiceType="specialUse" >
+16-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:14:13-55
+17            <property
+17-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:16:13-18:59
+18                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+18-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:17:17-76
+19                android:value="Custom Shell is Running" />
+19-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:18:17-56
+20        </service>
+21
+22        <receiver
+22-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:21:9-27:20
+23            android:name="rosh.lib.exec.TutupService"
+23-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:22:13-54
+24            android:exported="false" >
+24-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:23:13-37
+25            <intent-filter>
+25-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:24:13-26:29
+26                <action android:name="rosh.lib.exec.TUTUP_TERMINAL" />
+26-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:25:17-71
+26-->/storage/emulated/0/coding/Rosh/lib/src/main/AndroidManifest.xml:25:25-68
+27            </intent-filter>
+28        </receiver>
+29    </application>
+30
+31</manifest>

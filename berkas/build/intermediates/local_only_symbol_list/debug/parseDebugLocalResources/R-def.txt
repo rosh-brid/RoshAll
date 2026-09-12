@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+id bersih
+id centang
+id clear
+id gambar
+id grid
+id hapus
+id inti
+id jalur
+id keluar
+id memo_apk
+id memo_app
+id memo_sd
+id memo_usb
+id more
+id n
+id nama
+id nav
+id opsi_lainya
+id potong
+id pusat
+id rename
+id root_drawer
+id root_utama
+id salin
+id tempat_folder
+id tempel
+id tutup
+layout berkas
+layout item_alat_terpilih
+layout item_berkas_hor
+layout item_berkas_ver
+layout pop_file_terpilih
+string app_berkas
+string buat_file

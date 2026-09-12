@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />                
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ikon_utama"
+        android:label="@string/nama_app"
+        android:roundIcon="@drawable/ikon_utama"
+        android:supportsRtl="true"
+        android:theme="@style/RoshTheme">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="rosh.terminal.Terminal"
+            android:exported="true">
+        
+        </activity>
+        
+        <activity
+            android:name="rosh.berkas.Berkas"
+            android:exported="true">
+        
+        </activity>
+        
+        <activity
+            android:name="rosh.browser.Browser"
+            android:exported="true">
+        
+        </activity>
+    </application>
+    
+</manifest>

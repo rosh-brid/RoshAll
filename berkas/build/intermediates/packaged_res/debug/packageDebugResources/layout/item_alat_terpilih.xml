@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="50dp"
+     android:layout_width="match_parent"
+     android:background="@drawable/bg_kotak"
+     android:gravity="center"
+     android:layout_margin="10dp"
+     android:orientation="horizontal"
+     android:padding="5dp"
+     android:backgroundTint="@color/ui_biru"
+     android:id="@+id/inti">
+
+    <ImageView
+         android:layout_height="30dp"
+         android:layout_width="30dp"
+         android:layout_marginEnd="10dp"
+         android:src="@drawable/salin"
+         android:layout_marginStart="10dp"
+         android:id="@+id/salin" />
+
+    <ImageView
+         android:layout_height="30dp"
+         android:layout_width="30dp"
+         android:layout_marginEnd="10dp"
+         android:src="@drawable/potong"
+         android:layout_marginStart="10dp"
+         android:id="@+id/potong" />
+
+    <ImageView
+         android:layout_height="30dp"
+         android:layout_width="30dp"
+         android:layout_marginEnd="10dp"
+         android:src="@drawable/salin"
+         android:layout_marginStart="10dp"
+         android:id="@+id/tempel" />
+
+    <ImageView
+         android:layout_height="30dp"
+         android:layout_width="30dp"
+         android:layout_marginEnd="10dp"
+         android:src="@drawable/rename"
+         android:layout_marginStart="10dp"
+         android:id="@+id/rename" />
+
+    <ImageView
+         android:layout_height="30dp"
+         android:layout_width="30dp"
+         android:layout_marginEnd="10dp"
+         android:src="@drawable/sampah"
+         android:layout_marginStart="10dp"
+         android:id="@+id/hapus" />
+
+    <ImageView
+         android:layout_height="30dp"
+         android:layout_width="30dp"
+         android:layout_marginEnd="10dp"
+         android:src="@drawable/more"
+         android:layout_marginStart="10dp"
+         android:id="@+id/more" />
+
+</LinearLayout>

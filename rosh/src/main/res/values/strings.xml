@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="nama_app">Rosh All</string>
+    
+    <string name="tombol_bahasa">Language</string>
+    <string name="tombol_kode">Code</string>
+    <string name="tombol_gambar">Images</string>
+    <string name="tombol_video">Videos</string>
+    <string name="tombol_musik">Music</string>
+    <string name="tombol_tema">Themes</string>
+    <string name="tombol_berkas">Directory</string>
+    <string name="tombol_browser">Browser</string>
+    
+    <string name="judul_menu">~~ Main Menu ~~</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:id="@+id/pusat">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+
+        <FrameLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:background="@drawable/bg_kotak"
+             android:layout_margin="10dp"
+             android:backgroundTint="@color/bg">
+
+        </FrameLayout>
+
+        <android.webkit.WebView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent">
+
+        </android.webkit.WebView>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="310dp"
+         android:background="@color/bg"
+         android:orientation="vertical"
+         android:layout_gravity="start">
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,7 @@
+int id keluar 0x0
+int id mode 0x0
+int id pusat 0x0
+int id root_drawer 0x0
+int id root_utama 0x0
+int id terminal 0x0
+int layout terminal 0x0

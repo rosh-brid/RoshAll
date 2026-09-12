@@ -1,0 +1,8 @@
+rosh.terminal
+id keluar
+id mode
+id pusat
+id root_drawer
+id root_utama
+id terminal
+layout terminal

@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+id bahasa
+id berkas
+id browser
+id code
+id gambar
+id gambar_tema
+id git
+id keluar
+id musik
+id nama_tema
+id nav
+id pusat
+id root_drawer
+id root_utama
+id tema
+id terminal
+id tutup
+id video
+layout activity_main
+string judul_menu
+string nama_app
+string tombol_bahasa
+string tombol_berkas
+string tombol_browser
+string tombol_gambar
+string tombol_kode
+string tombol_musik
+string tombol_tema
+string tombol_video

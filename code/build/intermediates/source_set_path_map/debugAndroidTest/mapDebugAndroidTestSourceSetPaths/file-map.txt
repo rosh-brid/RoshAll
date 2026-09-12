@@ -1,0 +1,5 @@
+com.example.code.test.code-androidTest-0 /storage/emulated/0/coding/Rosh/code/build/generated/res/resValues/androidTest/debug
+com.example.code.test.code-mergeDebugAndroidTestResources-1 /storage/emulated/0/coding/Rosh/code/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.code.test.code-mergeDebugAndroidTestResources-2 /storage/emulated/0/coding/Rosh/code/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.code.test.code-debugAndroidTest-3 /storage/emulated/0/coding/Rosh/code/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+com.example.code.test.code-debug-4 /storage/emulated/0/coding/Rosh/code/build/intermediates/packaged_res/debug/packageDebugResources
