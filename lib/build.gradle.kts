@@ -1,7 +1,11 @@
 plugins {
     id("com.android.library")
     id("kotlin-android")
+    id("maven-publish")
 }
+
+group = "com.github.rosh-brid"
+version = "1.1.1"
 
 android {
     namespace = "rosh.lib"
@@ -20,6 +24,13 @@ android {
             cmake {
                 cppFlags += ""
             }
+        }
+    }
+    
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
         }
     }
     
@@ -76,4 +87,18 @@ dependencies {
     implementation("androidx.documentfile:documentfile:1.0.1")
     implementation("androidx.annotation:annotation:1.7.0")
     implementation("com.github.bumptech.glide:glide:4.16.0")
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+
+                groupId = "com.github.rosh-brid" 
+                artifactId = "lib"
+                version = "1.1.1"
+            }
+        }
+    }
 }

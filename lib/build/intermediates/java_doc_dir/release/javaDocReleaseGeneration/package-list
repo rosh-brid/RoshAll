@@ -1,0 +1,11 @@
+$dokka.format:javadoc-v1
+$dokka.linkExtension:html
+$dokka.location:rosh.lib.exec/ShellCustom.Companion///PointingToDeclaration/rosh/lib/exec/ShellCustom.Companion.html
+$dokka.location:rosh.lib.exec/TutupService.Companion///PointingToDeclaration/rosh/lib/exec/TutupService.Companion.html
+rosh.lib.aksi
+rosh.lib.databinding
+rosh.lib.exec
+rosh.lib.os.izin
+rosh.lib.widget
+rosh.view.ikon
+
