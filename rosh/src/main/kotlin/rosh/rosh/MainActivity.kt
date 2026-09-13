@@ -134,5 +134,9 @@ class MainActivity : AppCompatActivity() {
         Klik(findViewById<LinearLayout>(R.id.browser)).sekali{
             startActivity(Intent(this, rosh.browser.Browser::class.java))
         }
+        
+        Klik(findViewById<LinearLayout>(R.id.code)).sekali{
+            startActivity(Intent(this, rosh.code.Code::class.java))
+        }
     }
 }

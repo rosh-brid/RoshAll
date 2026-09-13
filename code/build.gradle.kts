@@ -4,8 +4,8 @@ plugins {
 }
 
 android {
-  namespace = "com.example.code"
-  compileSdk = 34
+  namespace = "rosh.code"
+  compileSdk = 36
 
   defaultConfig {
     minSdk = 24
@@ -37,6 +37,15 @@ android {
 }
 
 dependencies {
-  // Core Android dependencies
-  implementation("androidx.annotation:annotation:1.7.0")
+    implementation("androidx.annotation:annotation:1.7.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.2")
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("androidx.activity:activity:1.10.1")
+    
+    implementation(platform("io.github.rosemoe:editor-bom:0.24.4"))
+    implementation("io.github.rosemoe:editor")
+    implementation("io.github.rosemoe:language-textmate")
+    
+    implementation(project(":lib"))
 }

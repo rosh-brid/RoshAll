@@ -34,6 +34,12 @@
             android:exported="true">
         
         </activity>
+         
+        <activity
+            android:name="rosh.code.Code"
+            android:exported="true">
+        
+        </activity>
     </application>
     
 </manifest>

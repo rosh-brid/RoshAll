@@ -55,6 +55,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView nav;
 
   @NonNull
+  public final LinearLayout pengguna;
+
+  @NonNull
   public final DrawerLayout pusat;
 
   @NonNull
@@ -79,9 +82,9 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull LinearLayout berkas, @NonNull LinearLayout browser, @NonNull LinearLayout code,
       @NonNull LinearLayout gambar, @NonNull ImageView gambarTema, @NonNull ImageView git,
       @NonNull ImageView keluar, @NonNull LinearLayout musik, @NonNull TextView namaTema,
-      @NonNull ImageView nav, @NonNull DrawerLayout pusat, @NonNull LinearLayout rootDrawer,
-      @NonNull LinearLayout rootUtama, @NonNull LinearLayout tema, @NonNull LinearLayout terminal,
-      @NonNull ImageView tutup, @NonNull LinearLayout video) {
+      @NonNull ImageView nav, @NonNull LinearLayout pengguna, @NonNull DrawerLayout pusat,
+      @NonNull LinearLayout rootDrawer, @NonNull LinearLayout rootUtama, @NonNull LinearLayout tema,
+      @NonNull LinearLayout terminal, @NonNull ImageView tutup, @NonNull LinearLayout video) {
     this.rootView = rootView;
     this.bahasa = bahasa;
     this.berkas = berkas;
@@ -94,6 +97,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.musik = musik;
     this.namaTema = namaTema;
     this.nav = nav;
+    this.pengguna = pengguna;
     this.pusat = pusat;
     this.rootDrawer = rootDrawer;
     this.rootUtama = rootUtama;
@@ -196,6 +200,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.pengguna;
+      LinearLayout pengguna = ViewBindings.findChildViewById(rootView, id);
+      if (pengguna == null) {
+        break missingId;
+      }
+
       DrawerLayout pusat = (DrawerLayout) rootView;
 
       id = R.id.root_drawer;
@@ -235,8 +245,8 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((DrawerLayout) rootView, bahasa, berkas, browser, code, gambar,
-          gambarTema, git, keluar, musik, namaTema, nav, pusat, rootDrawer, rootUtama, tema,
-          terminal, tutup, video);
+          gambarTema, git, keluar, musik, namaTema, nav, pengguna, pusat, rootDrawer, rootUtama,
+          tema, terminal, tutup, video);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -32,4 +32,5 @@ class Terminal : AppCompatActivity(){
     
     private fun Tombol(){}
     
+    private fun Jalankan(){}
 }

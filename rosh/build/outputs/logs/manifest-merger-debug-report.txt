@@ -1,436 +1,513 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:2:1-39:12
-MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:2:1-21:12
-MERGED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-19:12
-MERGED from [:berkas] /storage/emulated/0/coding/Rosh/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:browser] /storage/emulated/0/coding/Rosh/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-31:12
-MERGED from [androidx.databinding:viewbinding:8.9.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d25635b3dd50d2a7d7d35f8425d9812c/transformed/viewbinding-8.9.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1185d56936cdcc5376eea16b66158642/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c8ebd3fd2de66b4ff925b2a9c191ca2c/transformed/constraintlayout-2.2.2/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/da7f72def7df8c4a2f426fc6cd2011c9/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/af57fe6d7bbea4c25ddbd411148aeab0/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/79e8166837a29ccf2be0dd013d124f4c/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:glide:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1bb4e12091beef714d1f4e1ca9eaf0a4/transformed/glide-4.16.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.fragment:fragment:1.5.4] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/923663989d9bcf601c6e2483363627a8/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.10.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d7e152d8f9631f0274735379c9f644e5/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/8a5c8bcd572ecf975ae11ec51975c14f/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0c1809b18b1ea6ce002b70203e9c5073/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6c9d3ee673024ce9216904024698d156/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/dab4f86b367f5d985b054578573d79dd/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5ebe2b9e3df6683b2f07a07f7951a345/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c118552b4cac0f47459d5e1a35f94145/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d53bdcf1a3914e349e4560e38149347d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/523644ff80ef438ba1366c3335a7a3b6/transformed/core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/54cbae6c8f048066abc2951030037d39/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/aeeacde6c4adfa69e785b6eb8fd848bc/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d93b424ecd7d47cc6ecc1cb333484eca/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c15c9b2283d1b25fdc9dcbed0b670683/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c7767da3b75b8628a9a546ee00ef99b0/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4f14080367548a5281dd77d34bba99dc/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b698be63e525d5e4bd8253db332fbc8a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b9cd3e7b6d42fdc71b789d27c4f47c1b/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c1ac6288d1fb9f32e9718389d6fedb2e/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d1452a30c45a606520e2e4e9bae8d1d6/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/3d4f487d057eebbd17a1e5cfeba0cb89/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/93bc9e37434fb232e7f2435f62bd96d2/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-viewtree:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a9b46780e3d8385be24c275451f08b4e/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4a6af50b695fbd4d6834b76167683f5d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0b8b5a1c80c55ec718b014df11b22e97/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a365e3d9b3dc9afbd79e4cefddd00230/transformed/documentfile-1.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/8fae92d8d3ab651a9391faed91531700/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/807e660f7dd3dc9e2b663c7d0235b1bc/transformed/gifdecoder-4.16.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/968b696b5a8e622b05272d140e17bc6c/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6026811a7b89db89d210ed95f69f45ea/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a5e49b2006859be0df19e6178c97c25b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/44c76ff8d39dfe0e39caa4a349626d77/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9beb487943554ae5bf7eae8183b2f700/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/17e0ffb3ca97030f0718d22c7602d204/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/2b5c81792c0807780c9ed7941c91bbdc/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/550d29f2b1438efb496a670945f83d9f/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-45:12
+MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:2:1-21:12
+MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-19:12
+MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:browser] /storage/emulated/0/coding/RoshAll/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-31:12
+MERGED from [androidx.databinding:viewbinding:8.9.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/180f2080d0af5afc9f1f31e22a327685/transformed/viewbinding-8.9.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a75b7acbc6e74d769388802345f258e5/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/914853f07f848579ad8318f1ad48d9a1/transformed/constraintlayout-2.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5df00542c9c7ca176d194e989951b6fa/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a8ba6ef993143416fcb6de604444a05b/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/19093ba8a785c5ae19ea8c64dee32a2b/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6c32737ce955f661f66bc378602ec252/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e01104310956900b8e53d2345920b208/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/878ab64c8a49b128807f670218520e6e/transformed/play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9e8d8e14e35ee0892d0db661fe4ada41/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0594d05418e1aa9f8662eb32f02bdfce/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf6d62784fd1331ce2209dfaa55c822d/transformed/play-services-basement-18.5.0/AndroidManifest.xml:16:1-26:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5c87d72b8df196a22df187353e6af1e8/transformed/glide-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.7] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4f16a23054503f82a84626c1ac0b1864/transformed/fragment-1.5.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.10.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/98e544bfacfa9cde3b3bfd563756f5a2/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [io.github.rosemoe:editor:0.24.4] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/130a4effc46f3161dd43b5c54facbc57/transformed/editor-0.24.4/AndroidManifest.xml:27:1-32:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/58f3b8a22a011972b469ea0031cc1ad8/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6334f52883faf0d1b177bdb782499f02/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e1dee0b64a23c82a1682a5e81ec73e49/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5ab9098c438c4cebb0c7d007bb780da1/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/513eb64e59c7faf4b1dcaf3f32cda08f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/654f23e4bea6fc17c70705aeb4377abc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1fdca0deebf5b7ec6867b014258b7b6e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c904577f90439219598d086655bbc5ac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ee683cdd9af83401090bf85231043792/transformed/loader-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4dbb6be116eaa0d15dc32bcb3a0a3e73/transformed/core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/41dc0afffd72566fe079bb7428a9ddf6/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7760a0bcfae56fd67bada62414395302/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/3a15a9cd585ecd74031f5685f9cefe9e/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/295f304fd8c07e9827ceac5998f89aef/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e41b366e2174f81189499ca3473b7a25/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/22f85accf9f5f5d5cfcb4c2c0b3a32bf/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/684b923e4d0845cc9e95115463828c67/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e9e610b145b2a18e30163fddb7d8c26f/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a2df51a3299bf2872d4c9cf8d4755285/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9a4fc07ea86683f249c35cd84505dbf7/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.rosemoe:language-textmate:0.24.4] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e9ccb648faccd7c56fcefadd030a08e1/transformed/language-textmate-0.24.4/AndroidManifest.xml:27:1-32:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f1fe52eb4edbec6992b06758d1ab1d7a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0af4e82597dcf68f5941e696b57b81e2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/289e8321988395ead1a68100bcdbb6cc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a2634bcf6877ac290d7df5d97955d534/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/aaceb0a2798a9b517e83a779f85c9bbc/transformed/documentfile-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/71c3960919de42f93be7ddfe434afc28/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/431b0cd982436ef0086c98acbcd1b6a6/transformed/gifdecoder-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/41458f64f0a2e913f7ce525603d4cddb/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b9bffc418c310fa47570a4c937f68f18/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6beb6964ba225a7724059a3cc1caf868/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4b7a552eb02cc5b482f779e9532771e8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7f4dda96587bb293deac42d99b75c190/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/3591e250c8bfb33f38e068efe6364ed9/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
-ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:3:5-87
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:3:5-87
 	android:name
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:3:22-84
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:3:22-84
 application
-ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:4:5-37:19
-INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:4:5-37:19
-MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:14:5-19:19
-MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:14:5-19:19
-MERGED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-17:19
-MERGED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-17:19
-MERGED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-29:19
-MERGED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-29:19
-MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1185d56936cdcc5376eea16b66158642/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1185d56936cdcc5376eea16b66158642/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c8ebd3fd2de66b4ff925b2a9c191ca2c/transformed/constraintlayout-2.2.2/AndroidManifest.xml:7:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c8ebd3fd2de66b4ff925b2a9c191ca2c/transformed/constraintlayout-2.2.2/AndroidManifest.xml:7:5-20
-MERGED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b698be63e525d5e4bd8253db332fbc8a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b698be63e525d5e4bd8253db332fbc8a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/8fae92d8d3ab651a9391faed91531700/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/8fae92d8d3ab651a9391faed91531700/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/17e0ffb3ca97030f0718d22c7602d204/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/17e0ffb3ca97030f0718d22c7602d204/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:4:5-43:19
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:4:5-43:19
+MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:14:5-19:19
+MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:14:5-19:19
+MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-17:19
+MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-17:19
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-29:19
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-29:19
+MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a75b7acbc6e74d769388802345f258e5/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a75b7acbc6e74d769388802345f258e5/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/914853f07f848579ad8318f1ad48d9a1/transformed/constraintlayout-2.2.2/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/914853f07f848579ad8318f1ad48d9a1/transformed/constraintlayout-2.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/878ab64c8a49b128807f670218520e6e/transformed/play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/878ab64c8a49b128807f670218520e6e/transformed/play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9e8d8e14e35ee0892d0db661fe4ada41/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9e8d8e14e35ee0892d0db661fe4ada41/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0594d05418e1aa9f8662eb32f02bdfce/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0594d05418e1aa9f8662eb32f02bdfce/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf6d62784fd1331ce2209dfaa55c822d/transformed/play-services-basement-18.5.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf6d62784fd1331ce2209dfaa55c822d/transformed/play-services-basement-18.5.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e41b366e2174f81189499ca3473b7a25/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e41b366e2174f81189499ca3473b7a25/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0af4e82597dcf68f5941e696b57b81e2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0af4e82597dcf68f5941e696b57b81e2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/71c3960919de42f93be7ddfe434afc28/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/71c3960919de42f93be7ddfe434afc28/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:requestLegacyExternalStorage
-		ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:9-52
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:9-52
 	android:extractNativeLibs
-		INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:7:9-41
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:7:9-41
 	android:requestForegroundServiceExemption
-		ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:9-57
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:9-57
 	android:roundIcon
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:8:9-49
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:8:9-49
 	android:icon
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:6:9-44
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:6:9-44
 	android:allowBackup
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:5:9-35
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:5:9-35
 	android:theme
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:10:9-41
 activity#rosh.rosh.MainActivity
-ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:11:9-18:20
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:11:9-18:20
 	android:exported
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:13:13-36
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:13:13-36
 	android:name
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:12:13-41
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:12:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:14:13-17:29
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:15:17-69
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:16:17-77
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:16:27-74
 activity#rosh.terminal.Terminal
-ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:20:9-24:20
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:20:9-24:20
 	android:exported
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:22:13-36
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:21:13-50
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:21:13-50
 activity#rosh.berkas.Berkas
-ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:26:9-30:20
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:26:9-30:20
 	android:exported
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:28:13-36
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:27:13-46
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:27:13-46
 activity#rosh.browser.Browser
-ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:32:9-36:20
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:32:9-36:20
 	android:exported
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml:33:13-48
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:33:13-48
+activity#rosh.code.Code
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:38:9-42:20
+	android:exported
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:39:13-42
 uses-sdk
-INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml
-INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml
-MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:5:5-44
-MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:5:5-44
-MERGED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:berkas] /storage/emulated/0/coding/Rosh/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:berkas] /storage/emulated/0/coding/Rosh/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:browser] /storage/emulated/0/coding/Rosh/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:browser] /storage/emulated/0/coding/Rosh/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:viewbinding:8.9.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d25635b3dd50d2a7d7d35f8425d9812c/transformed/viewbinding-8.9.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:viewbinding:8.9.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d25635b3dd50d2a7d7d35f8425d9812c/transformed/viewbinding-8.9.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1185d56936cdcc5376eea16b66158642/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1185d56936cdcc5376eea16b66158642/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c8ebd3fd2de66b4ff925b2a9c191ca2c/transformed/constraintlayout-2.2.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c8ebd3fd2de66b4ff925b2a9c191ca2c/transformed/constraintlayout-2.2.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/da7f72def7df8c4a2f426fc6cd2011c9/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/da7f72def7df8c4a2f426fc6cd2011c9/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/af57fe6d7bbea4c25ddbd411148aeab0/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/af57fe6d7bbea4c25ddbd411148aeab0/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/79e8166837a29ccf2be0dd013d124f4c/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/79e8166837a29ccf2be0dd013d124f4c/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:glide:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1bb4e12091beef714d1f4e1ca9eaf0a4/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:glide:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1bb4e12091beef714d1f4e1ca9eaf0a4/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.fragment:fragment:1.5.4] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/923663989d9bcf601c6e2483363627a8/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/923663989d9bcf601c6e2483363627a8/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.10.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d7e152d8f9631f0274735379c9f644e5/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.10.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d7e152d8f9631f0274735379c9f644e5/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/8a5c8bcd572ecf975ae11ec51975c14f/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/8a5c8bcd572ecf975ae11ec51975c14f/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0c1809b18b1ea6ce002b70203e9c5073/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0c1809b18b1ea6ce002b70203e9c5073/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6c9d3ee673024ce9216904024698d156/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6c9d3ee673024ce9216904024698d156/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/dab4f86b367f5d985b054578573d79dd/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.transition:transition:1.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/dab4f86b367f5d985b054578573d79dd/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5ebe2b9e3df6683b2f07a07f7951a345/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5ebe2b9e3df6683b2f07a07f7951a345/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c118552b4cac0f47459d5e1a35f94145/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c118552b4cac0f47459d5e1a35f94145/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d53bdcf1a3914e349e4560e38149347d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d53bdcf1a3914e349e4560e38149347d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/523644ff80ef438ba1366c3335a7a3b6/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/523644ff80ef438ba1366c3335a7a3b6/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/54cbae6c8f048066abc2951030037d39/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/54cbae6c8f048066abc2951030037d39/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/aeeacde6c4adfa69e785b6eb8fd848bc/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/aeeacde6c4adfa69e785b6eb8fd848bc/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d93b424ecd7d47cc6ecc1cb333484eca/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d93b424ecd7d47cc6ecc1cb333484eca/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c15c9b2283d1b25fdc9dcbed0b670683/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c15c9b2283d1b25fdc9dcbed0b670683/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c7767da3b75b8628a9a546ee00ef99b0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c7767da3b75b8628a9a546ee00ef99b0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4f14080367548a5281dd77d34bba99dc/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4f14080367548a5281dd77d34bba99dc/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b698be63e525d5e4bd8253db332fbc8a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b698be63e525d5e4bd8253db332fbc8a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b9cd3e7b6d42fdc71b789d27c4f47c1b/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b9cd3e7b6d42fdc71b789d27c4f47c1b/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c1ac6288d1fb9f32e9718389d6fedb2e/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c1ac6288d1fb9f32e9718389d6fedb2e/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d1452a30c45a606520e2e4e9bae8d1d6/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/d1452a30c45a606520e2e4e9bae8d1d6/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/3d4f487d057eebbd17a1e5cfeba0cb89/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/3d4f487d057eebbd17a1e5cfeba0cb89/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/93bc9e37434fb232e7f2435f62bd96d2/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/93bc9e37434fb232e7f2435f62bd96d2/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-viewtree:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a9b46780e3d8385be24c275451f08b4e/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-viewtree:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a9b46780e3d8385be24c275451f08b4e/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4a6af50b695fbd4d6834b76167683f5d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4a6af50b695fbd4d6834b76167683f5d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0b8b5a1c80c55ec718b014df11b22e97/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0b8b5a1c80c55ec718b014df11b22e97/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a365e3d9b3dc9afbd79e4cefddd00230/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a365e3d9b3dc9afbd79e4cefddd00230/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/8fae92d8d3ab651a9391faed91531700/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/8fae92d8d3ab651a9391faed91531700/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/807e660f7dd3dc9e2b663c7d0235b1bc/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/807e660f7dd3dc9e2b663c7d0235b1bc/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/968b696b5a8e622b05272d140e17bc6c/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/968b696b5a8e622b05272d140e17bc6c/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6026811a7b89db89d210ed95f69f45ea/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6026811a7b89db89d210ed95f69f45ea/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a5e49b2006859be0df19e6178c97c25b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a5e49b2006859be0df19e6178c97c25b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/44c76ff8d39dfe0e39caa4a349626d77/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/44c76ff8d39dfe0e39caa4a349626d77/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9beb487943554ae5bf7eae8183b2f700/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9beb487943554ae5bf7eae8183b2f700/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/17e0ffb3ca97030f0718d22c7602d204/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/17e0ffb3ca97030f0718d22c7602d204/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/2b5c81792c0807780c9ed7941c91bbdc/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/2b5c81792c0807780c9ed7941c91bbdc/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/550d29f2b1438efb496a670945f83d9f/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/550d29f2b1438efb496a670945f83d9f/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml
+MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:5:5-44
+MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:5:5-44
+MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:browser] /storage/emulated/0/coding/RoshAll/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:browser] /storage/emulated/0/coding/RoshAll/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.9.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/180f2080d0af5afc9f1f31e22a327685/transformed/viewbinding-8.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.9.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/180f2080d0af5afc9f1f31e22a327685/transformed/viewbinding-8.9.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a75b7acbc6e74d769388802345f258e5/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a75b7acbc6e74d769388802345f258e5/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/914853f07f848579ad8318f1ad48d9a1/transformed/constraintlayout-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/914853f07f848579ad8318f1ad48d9a1/transformed/constraintlayout-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5df00542c9c7ca176d194e989951b6fa/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5df00542c9c7ca176d194e989951b6fa/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a8ba6ef993143416fcb6de604444a05b/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a8ba6ef993143416fcb6de604444a05b/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/19093ba8a785c5ae19ea8c64dee32a2b/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/19093ba8a785c5ae19ea8c64dee32a2b/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6c32737ce955f661f66bc378602ec252/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6c32737ce955f661f66bc378602ec252/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e01104310956900b8e53d2345920b208/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e01104310956900b8e53d2345920b208/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/878ab64c8a49b128807f670218520e6e/transformed/play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/878ab64c8a49b128807f670218520e6e/transformed/play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9e8d8e14e35ee0892d0db661fe4ada41/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9e8d8e14e35ee0892d0db661fe4ada41/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0594d05418e1aa9f8662eb32f02bdfce/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0594d05418e1aa9f8662eb32f02bdfce/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf6d62784fd1331ce2209dfaa55c822d/transformed/play-services-basement-18.5.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf6d62784fd1331ce2209dfaa55c822d/transformed/play-services-basement-18.5.0/AndroidManifest.xml:18:5-43
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5c87d72b8df196a22df187353e6af1e8/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5c87d72b8df196a22df187353e6af1e8/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.5.7] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4f16a23054503f82a84626c1ac0b1864/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4f16a23054503f82a84626c1ac0b1864/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.10.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/98e544bfacfa9cde3b3bfd563756f5a2/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/98e544bfacfa9cde3b3bfd563756f5a2/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [io.github.rosemoe:editor:0.24.4] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/130a4effc46f3161dd43b5c54facbc57/transformed/editor-0.24.4/AndroidManifest.xml:30:5-44
+MERGED from [io.github.rosemoe:editor:0.24.4] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/130a4effc46f3161dd43b5c54facbc57/transformed/editor-0.24.4/AndroidManifest.xml:30:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/58f3b8a22a011972b469ea0031cc1ad8/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/58f3b8a22a011972b469ea0031cc1ad8/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6334f52883faf0d1b177bdb782499f02/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6334f52883faf0d1b177bdb782499f02/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e1dee0b64a23c82a1682a5e81ec73e49/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e1dee0b64a23c82a1682a5e81ec73e49/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5ab9098c438c4cebb0c7d007bb780da1/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/5ab9098c438c4cebb0c7d007bb780da1/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/513eb64e59c7faf4b1dcaf3f32cda08f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/513eb64e59c7faf4b1dcaf3f32cda08f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/654f23e4bea6fc17c70705aeb4377abc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/654f23e4bea6fc17c70705aeb4377abc/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1fdca0deebf5b7ec6867b014258b7b6e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/1fdca0deebf5b7ec6867b014258b7b6e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c904577f90439219598d086655bbc5ac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/c904577f90439219598d086655bbc5ac/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ee683cdd9af83401090bf85231043792/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ee683cdd9af83401090bf85231043792/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4dbb6be116eaa0d15dc32bcb3a0a3e73/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4dbb6be116eaa0d15dc32bcb3a0a3e73/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/41dc0afffd72566fe079bb7428a9ddf6/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/41dc0afffd72566fe079bb7428a9ddf6/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7760a0bcfae56fd67bada62414395302/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7760a0bcfae56fd67bada62414395302/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/3a15a9cd585ecd74031f5685f9cefe9e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/3a15a9cd585ecd74031f5685f9cefe9e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/295f304fd8c07e9827ceac5998f89aef/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/295f304fd8c07e9827ceac5998f89aef/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e41b366e2174f81189499ca3473b7a25/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e41b366e2174f81189499ca3473b7a25/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/22f85accf9f5f5d5cfcb4c2c0b3a32bf/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/22f85accf9f5f5d5cfcb4c2c0b3a32bf/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/684b923e4d0845cc9e95115463828c67/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/684b923e4d0845cc9e95115463828c67/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e9e610b145b2a18e30163fddb7d8c26f/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e9e610b145b2a18e30163fddb7d8c26f/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a2df51a3299bf2872d4c9cf8d4755285/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a2df51a3299bf2872d4c9cf8d4755285/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9a4fc07ea86683f249c35cd84505dbf7/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9a4fc07ea86683f249c35cd84505dbf7/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [io.github.rosemoe:language-textmate:0.24.4] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e9ccb648faccd7c56fcefadd030a08e1/transformed/language-textmate-0.24.4/AndroidManifest.xml:30:5-44
+MERGED from [io.github.rosemoe:language-textmate:0.24.4] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e9ccb648faccd7c56fcefadd030a08e1/transformed/language-textmate-0.24.4/AndroidManifest.xml:30:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f1fe52eb4edbec6992b06758d1ab1d7a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f1fe52eb4edbec6992b06758d1ab1d7a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0af4e82597dcf68f5941e696b57b81e2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0af4e82597dcf68f5941e696b57b81e2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/289e8321988395ead1a68100bcdbb6cc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/289e8321988395ead1a68100bcdbb6cc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a2634bcf6877ac290d7df5d97955d534/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a2634bcf6877ac290d7df5d97955d534/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/aaceb0a2798a9b517e83a779f85c9bbc/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/aaceb0a2798a9b517e83a779f85c9bbc/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/71c3960919de42f93be7ddfe434afc28/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/71c3960919de42f93be7ddfe434afc28/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/431b0cd982436ef0086c98acbcd1b6a6/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/431b0cd982436ef0086c98acbcd1b6a6/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/41458f64f0a2e913f7ce525603d4cddb/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/41458f64f0a2e913f7ce525603d4cddb/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b9bffc418c310fa47570a4c937f68f18/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b9bffc418c310fa47570a4c937f68f18/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6beb6964ba225a7724059a3cc1caf868/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/6beb6964ba225a7724059a3cc1caf868/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4b7a552eb02cc5b482f779e9532771e8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/4b7a552eb02cc5b482f779e9532771e8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7f4dda96587bb293deac42d99b75c190/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7f4dda96587bb293deac42d99b75c190/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/3591e250c8bfb33f38e068efe6364ed9/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/3591e250c8bfb33f38e068efe6364ed9/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /storage/emulated/0/coding/Rosh/rosh/src/main/AndroidManifest.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml
 uses-permission#android.permission.GET_PACKAGE_SIZE
-ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:7:5-75
+ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:7:5-75
 	android:name
-		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:7:22-72
+		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:7:22-72
 uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:8:5-77
+ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:8:5-77
 	android:name
-		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:8:22-74
+		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:8:22-74
 queries
-ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:10:5-12:15
+ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:10:5-12:15
 package#io.github.mohammedbaqernull.logger
-ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:11:9-70
+ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:11:9-70
 	android:name
-		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:11:18-67
+		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:11:18-67
 provider#io.github.mohammedbaqernull.logger.logwire.LogWireInitializer
-ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:15:9-18:39
+ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:15:9-18:39
 	android:authorities
-		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:17:13-71
+		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:17:13-71
 	android:exported
-		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:18:13-36
+		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/ad0fc6eee5b6747ff4aa75441c9392a4/transformed/logger-runtime/AndroidManifest.xml:16:13-89
+		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:16:13-89
 uses-permission#android.permission.INTERNET
-ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-64
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-79
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-76
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-80
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-77
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-81
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-78
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-82
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-82
 	android:name
-		ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:22-79
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:22-79
 uses-permission#android.permission.READ_LOGS
-ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-68
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from [:terminal] /storage/emulated/0/coding/Rosh/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:22-65
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-77
+ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-77
 	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-74
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-74
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-78
+ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-78
 	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-75
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-75
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-77
+ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-77
 	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-74
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-74
 uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
-ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-89
+ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-89
 	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-86
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-86
 service#rosh.lib.exec.ShellCustom
-ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:9-20:19
+ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:9-20:19
 	android:exported
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-36
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-36
 	android:foregroundServiceType
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-55
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-55
 	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-53
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-53
 property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
-ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-19:59
+ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-19:59
 	android:value
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-56
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-56
 	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:17-76
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:17-76
 receiver#rosh.lib.exec.TutupService
-ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:9-28:20
+ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:9-28:20
 	android:exported
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-37
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-54
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-54
 intent-filter#action:name:rosh.lib.exec.TUTUP_TERMINAL
-ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:13-27:29
+ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:13-27:29
 action#rosh.lib.exec.TUTUP_TERMINAL
-ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:17-71
+ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:17-71
 	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/Rosh/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:25-68
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b698be63e525d5e4bd8253db332fbc8a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b698be63e525d5e4bd8253db332fbc8a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/8fae92d8d3ab651a9391faed91531700/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/8fae92d8d3ab651a9391faed91531700/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:25-68
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/024c4abf2ec48b96eceed2400e5de216/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
-permission#rosh.rosh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
-uses-permission#rosh.rosh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/88ca11ece4f030d7a327a0951fd36890/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b698be63e525d5e4bd8253db332fbc8a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b698be63e525d5e4bd8253db332fbc8a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/b698be63e525d5e4bd8253db332fbc8a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
-receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
-	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:33:9-37:51
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:37:13-48
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9e8d8e14e35ee0892d0db661fe4ada41/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9e8d8e14e35ee0892d0db661fe4ada41/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9e8d8e14e35ee0892d0db661fe4ada41/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/9e8d8e14e35ee0892d0db661fe4ada41/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf6d62784fd1331ce2209dfaa55c822d/transformed/play-services-basement-18.5.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf6d62784fd1331ce2209dfaa55c822d/transformed/play-services-basement-18.5.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf6d62784fd1331ce2209dfaa55c822d/transformed/play-services-basement-18.5.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e41b366e2174f81189499ca3473b7a25/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e41b366e2174f81189499ca3473b7a25/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/71c3960919de42f93be7ddfe434afc28/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/71c3960919de42f93be7ddfe434afc28/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/787dad67958586b7b891e3cd619b158b/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+permission#rosh.rosh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+uses-permission#rosh.rosh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e41b366e2174f81189499ca3473b7a25/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e41b366e2174f81189499ca3473b7a25/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/e41b366e2174f81189499ca3473b7a25/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/7ce6aa8cd9f99d8256cd1a8e7ae2de2b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/0798ef5bdaa3dee41456a5a4b332ab1f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92

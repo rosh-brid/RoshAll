@@ -3010,6 +3010,7 @@ drawable android
 drawable avd_hide_password
 drawable avd_show_password
 drawable bahasa
+drawable bawah
 drawable bg_campur
 drawable bg_kotak
 drawable browser
@@ -3067,6 +3068,7 @@ drawable ic_search_black_24
 drawable ikon
 drawable ikon_utama
 drawable indeterminate_static
+drawable kanan
 drawable keluar
 drawable kode_editor
 drawable lainya
@@ -3146,6 +3148,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pengguna
 drawable potong
 drawable rename
 drawable salin
@@ -3642,6 +3645,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id tanda
 id tempat_folder
 id tempel
 id text
@@ -3843,6 +3847,8 @@ layout ime_secondary_split_test_activity
 layout item_alat_terpilih
 layout item_berkas_hor
 layout item_berkas_ver
+layout item_folder_view_hor
+layout item_folder_view_null
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4071,6 +4077,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pesan_folder_kosong
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

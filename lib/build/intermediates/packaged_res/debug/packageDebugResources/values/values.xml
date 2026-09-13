@@ -11,6 +11,7 @@
     <color name="ungu">#ffaaff</color>
     <string name="judul_unduh">Download</string>
     <string name="judul_zip">Unzip Items</string>
+    <string name="pesan_folder_kosong">No directory selected</string>
     <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:fontFamily">@font/sanet</item>
         <item name="android:textColor">@color/tulisan</item>

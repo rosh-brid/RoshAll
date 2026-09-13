@@ -1,2 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+id folder_view
+id pusat
+id view
+layout code

@@ -10,6 +10,7 @@ int color ui_ungu 0x0
 int color ungu 0x0
 int drawable android 0x0
 int drawable bahasa 0x0
+int drawable bawah 0x0
 int drawable bg_campur 0x0
 int drawable bg_kotak 0x0
 int drawable browser 0x0
@@ -35,6 +36,7 @@ int drawable gambar 0x0
 int drawable github 0x0
 int drawable ikon 0x0
 int drawable ikon_utama 0x0
+int drawable kanan 0x0
 int drawable keluar 0x0
 int drawable kode_editor 0x0
 int drawable lainya 0x0
@@ -42,6 +44,7 @@ int drawable matahari 0x0
 int drawable more 0x0
 int drawable musik 0x0
 int drawable nav 0x0
+int drawable pengguna 0x0
 int drawable potong 0x0
 int drawable rename 0x0
 int drawable salin 0x0
@@ -57,19 +60,25 @@ int font extrasquare 0x0
 int font sanet 0x0
 int id anak 0x0
 int id anak_view_persen 0x0
+int id gambar 0x0
 int id inti 0x0
 int id n 0x0
+int id nama 0x0
 int id nama_proses 0x0
 int id nama_url 0x0
 int id nama_zip 0x0
 int id persen 0x0
 int id proses 0x0
+int id tanda 0x0
 int id ukuran 0x0
 int id view_persen 0x0
+int layout item_folder_view_hor 0x0
+int layout item_folder_view_null 0x0
 int layout pop_unduh_langsung 0x0
 int layout pop_unzip 0x0
 int string judul_unduh 0x0
 int string judul_zip 0x0
+int string pesan_folder_kosong 0x0
 int style Base_AppTheme 0x0
 int style RoshTheme 0x0
 int[] styleable TerminalView { 0x0 }

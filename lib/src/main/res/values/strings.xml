@@ -2,4 +2,6 @@
 <resources>
     <string name="judul_unduh">Download</string>
     <string name="judul_zip">Unzip Items</string>
+    
+    <string name="pesan_folder_kosong">No directory selected</string>
 </resources>

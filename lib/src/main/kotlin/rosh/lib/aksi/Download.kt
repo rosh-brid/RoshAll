@@ -59,7 +59,6 @@ class Download(private val kelas: Activity) {
         namaFileDownload = terima
     }
 
-    /** Dipanggil saat unduhan selesai. sukses=true jika tuntas, file=lokasi hasil unduhan */
     fun setOnSelesai(listener: (sukses: Boolean, file: File?) -> Unit) {
         onSelesai = listener
     }

@@ -11,6 +11,7 @@ color ui_ungu
 color ungu
 drawable android
 drawable bahasa
+drawable bawah
 drawable bg_campur
 drawable bg_kotak
 drawable browser
@@ -36,6 +37,7 @@ drawable gambar
 drawable github
 drawable ikon
 drawable ikon_utama
+drawable kanan
 drawable keluar
 drawable kode_editor
 drawable lainya
@@ -43,6 +45,7 @@ drawable matahari
 drawable more
 drawable musik
 drawable nav
+drawable pengguna
 drawable potong
 drawable rename
 drawable salin
@@ -58,19 +61,25 @@ font extrasquare
 font sanet
 id anak
 id anak_view_persen
+id gambar
 id inti
 id n
+id nama
 id nama_proses
 id nama_url
 id nama_zip
 id persen
 id proses
+id tanda
 id ukuran
 id view_persen
+layout item_folder_view_hor
+layout item_folder_view_null
 layout pop_unduh_langsung
 layout pop_unzip
 string judul_unduh
 string judul_zip
+string pesan_folder_kosong
 style Base_AppTheme
 style RoshTheme
 styleable TerminalView textSelectable

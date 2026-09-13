@@ -1,1 +1,5 @@
-com.example.code
+rosh.code
+id folder_view
+id pusat
+id view
+layout code

@@ -355,6 +355,31 @@
                  android:padding="10dp"
                  android:layout_margin="3dp"
                  android:orientation="horizontal"
+                 android:id="@+id/pengguna">
+
+                <ImageView
+                     android:layout_height="25dp"
+                     android:layout_width="25dp"
+                     android:src="@drawable/pengguna"
+                     android:layout_marginEnd="10dp"
+                     android:layout_marginStart="20dp" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="14sp"
+                     android:textStyle="bold|italic"
+                     android:text="User" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center_vertical"
+                 android:padding="10dp"
+                 android:layout_margin="3dp"
+                 android:orientation="horizontal"
                  android:id="@+id/bahasa">
 
                 <ImageView

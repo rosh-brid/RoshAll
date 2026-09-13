@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.github.rosh-brid"
-version = "1.1.1"
+version = "1.1.2"
 
 android {
     namespace = "rosh.lib"
@@ -97,7 +97,7 @@ afterEvaluate {
 
                 groupId = "com.github.rosh-brid" 
                 artifactId = "lib"
-                version = "1.1.1"
+                version = "1.1.2"
             }
         }
     }

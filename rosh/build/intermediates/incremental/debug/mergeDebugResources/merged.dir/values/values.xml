@@ -48,6 +48,7 @@
     <attr format="string" name="circularflow_radiusInDP"/>
     <attr format="reference" name="circularflow_viewCenter"/>
     <attr format="reference" name="clockIcon"/>
+    <attr format="reference" name="codeEditorStyle"/>
     <attr format="reference" name="collapsingToolbarLayoutLargeSize"/>
     <attr format="reference" name="collapsingToolbarLayoutLargeStyle"/>
     <attr format="reference" name="collapsingToolbarLayoutMediumSize"/>
@@ -659,6 +660,16 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="defaultSymbolInputBackgroundColor">@android:color/background_light</color>
+    <color name="defaultSymbolInputTextColor">@android:color/black</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -961,6 +972,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="textActionNameColor">@android:color/tertiary_text_light</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <color name="tulisan">#000000</color>
@@ -1898,6 +1910,7 @@
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="google_play_services_version">12451000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="m3_badge_max_number">999</integer>
     <integer name="m3_btn_anim_delay_ms">100</integer>
@@ -2010,6 +2023,24 @@
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
   </string>
@@ -2135,6 +2166,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="pesan_folder_kosong">No directory selected</string>
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">
     com.google.android.material.search.SearchBar$ScrollingViewBehavior
@@ -2143,6 +2175,19 @@
     <string description="Content description for the navigation button to return to the previous screen [CHAR_LIMIT=NONE]" name="searchview_navigation_content_description">Back</string>
     <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="sora_editor_clip_text_length_too_large">Text is too large to copy</string>
+    <string name="sora_editor_diagnostics_more_actions">More Actions...</string>
+    <string name="sora_editor_editor_formatting">Formatting your code…</string>
+    <string name="sora_editor_editor_search_busy">Editor is still preparing…</string>
+    <string name="sora_editor_editor_search_replacing">Replacing texts…</string>
+    <string name="sora_editor_last">Last</string>
+    <string name="sora_editor_long_select">Long Select</string>
+    <string name="sora_editor_more">More</string>
+    <string name="sora_editor_next">Next</string>
+    <string name="sora_editor_replace">Replace</string>
+    <string name="sora_editor_replaceAll">Replace All</string>
+    <string name="sora_editor_replacement">Replacement</string>
+    <string name="sora_editor_text_to_search">Text to search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tombol_bahasa">Language</string>
     <string name="tombol_berkas">Directory</string>
@@ -9274,6 +9319,14 @@
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
+    <style name="diagnostic_popup_animation">
+        <item name="android:windowEnterAnimation">@anim/anim_diagnostic_tooltip_window_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_diagnostic_tooltip_window_exit</item>
+    </style>
+    <style name="text_action_popup_animation">
+        <item name="android:windowEnterAnimation">@anim/anim_text_action_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_text_action_popup_exit</item>
+    </style>
     <declare-styleable name="ActionBar">
         
         <attr name="navigationMode">
@@ -10478,6 +10531,50 @@
 
     <attr format="dimension" name="selectorSize"/>
   </declare-styleable>
+    <declare-styleable name="CodeEditor">
+        <attr format="reference" name="scrollbarTrackHorizontal"/>
+        <attr format="reference" name="scrollbarThumbHorizontal"/>
+        <attr format="reference" name="scrollbarTrackVertical"/>
+        <attr format="reference" name="scrollbarThumbVertical"/>
+
+        <attr name="lnPanelPositionMode">
+            <enum name="fixed" value="0"/>
+            <enum name="follow" value="1"/>
+        </attr>
+        <attr name="lnPanelPosition">
+            <flag name="left" value="1"/>
+            <flag name="top" value="2"/>
+            <flag name="right" value="4"/>
+            <flag name="bottom" value="8"/>
+            <flag name="center" value="15"/>
+        </attr>
+
+        <attr format="string" name="text"/>
+        <attr format="dimension" name="textSize"/>
+        <attr format="dimension" name="dividerWidth"/>
+        <attr format="dimension" name="dividerMargin"/>
+        <attr format="boolean" name="lineNumberVisible"/>
+        <attr format="boolean" name="autoCompleteEnabled"/>
+        <attr format="boolean" name="symbolCompletionEnabled"/>
+        <attr format="integer" name="cursorBlinkPeriod"/>
+        <attr format="boolean" name="verticalScrollbarEnabled"/>
+        <attr format="boolean" name="horizontalScrollbarEnabled"/>
+        <attr format="boolean" name="pinLineNumber"/>
+        <attr name="wordwrapMode">
+            <enum name="off" value="0"/>
+            <!-- Without anti-word-breaking -->
+            <enum name="basic" value="1"/>
+            <!-- With anti-word-breaking -->
+            <enum name="standard" value="2"/>
+        </attr>
+        <attr format="boolean" name="highlightCurrentLine"/>
+        <attr format="boolean" name="highlightCurrentBlock"/>
+        <attr format="boolean" name="highlightBracketPair"/>
+        <attr format="boolean" name="ligatures"/>
+        <attr format="boolean" name="renderFunctionChars"/>
+        <attr format="boolean" name="scalable"/>
+        <attr format="integer" name="tabWidth"/>
+    </declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout">
     
     <attr format="dimension" name="expandedTitleMargin"/>
@@ -11880,6 +11977,19 @@
         
         <attr name="android:dropDownHorizontalOffset"/>
     </declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr>
+
+<attr format="float" name="imageAspectRatio"/>
+
+<attr format="boolean" name="circleCrop"/>
+</declare-styleable>
     <declare-styleable name="MaterialAlertDialog">
     <attr name="backgroundTint"/>
     <attr format="dimension" name="backgroundInsetStart"/>
@@ -12858,6 +12968,25 @@
     <attr format="reference" name="coplanarSiblingViewId"/>
 
   </declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr>
+<attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr>
+
+<attr format="reference|string" name="scopeUris"/>
+</declare-styleable>
     <declare-styleable name="Slider">
     <attr name="android:value"/>
     <attr name="android:valueFrom"/>

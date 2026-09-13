@@ -4,6 +4,8 @@
     <color name="bg_log">#30333333</color>
     <color name="bg_pop">#333343</color>
     <color name="biru">#337777</color>
+    <color name="defaultSymbolInputBackgroundColor">@android:color/background_dark</color>
+    <color name="defaultSymbolInputTextColor">@android:color/white</color>
     <color name="tulisan">#ffffff</color>
     <color name="ui_bg">#75000000</color>
     <color name="ui_biru">#75337777</color>
