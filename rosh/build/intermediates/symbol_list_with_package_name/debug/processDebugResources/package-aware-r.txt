@@ -3141,6 +3141,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable ic_sora_handle_drop
 drawable ikon
+drawable ikon_pilih_folder
 drawable ikon_utama
 drawable indeterminate_static
 drawable kanan
@@ -3323,6 +3324,7 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
+id aksi
 id alertTitle
 id aligned
 id all
@@ -3467,7 +3469,6 @@ id fitXY
 id fixed
 id flip
 id floating
-id folder_view
 id follow
 id forever
 id fragment_container_view_tag
@@ -3515,6 +3516,7 @@ id jalur
 id jumpToEnd
 id jumpToStart
 id keluar
+id kode
 id labeled
 id layout
 id left
@@ -3660,6 +3662,7 @@ id peekHeight
 id pengguna
 id percent
 id persen
+id pilih_folder
 id pin
 id position
 id postLayout
@@ -3766,6 +3769,7 @@ id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id tanda
 id tema
+id tempat_alat
 id tempat_folder
 id tempel
 id terminal
@@ -3814,7 +3818,6 @@ id useLogo
 id vertical
 id vertical_only
 id video
-id view
 id view_offset_helper
 id view_persen
 id view_transition

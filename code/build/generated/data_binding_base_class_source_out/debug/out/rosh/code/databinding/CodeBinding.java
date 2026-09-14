@@ -4,37 +4,65 @@ package rosh.code.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import io.github.rosemoe.sora.widget.CodeEditor;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 import rosh.code.R;
-import rosh.lib.widget.FolderView;
 
 public final class CodeBinding implements ViewBinding {
   @NonNull
   private final DrawerLayout rootView;
 
   @NonNull
-  public final LinearLayout folderView;
+  public final TextView aksi;
+
+  @NonNull
+  public final ImageView keluar;
+
+  @NonNull
+  public final CodeEditor kode;
+
+  @NonNull
+  public final ImageView pilihFolder;
 
   @NonNull
   public final DrawerLayout pusat;
 
   @NonNull
-  public final FolderView view;
+  public final LinearLayout rootDrawer;
 
-  private CodeBinding(@NonNull DrawerLayout rootView, @NonNull LinearLayout folderView,
-      @NonNull DrawerLayout pusat, @NonNull FolderView view) {
+  @NonNull
+  public final LinearLayout rootUtama;
+
+  @NonNull
+  public final LinearLayout tempatAlat;
+
+  @NonNull
+  public final ImageView tutup;
+
+  private CodeBinding(@NonNull DrawerLayout rootView, @NonNull TextView aksi,
+      @NonNull ImageView keluar, @NonNull CodeEditor kode, @NonNull ImageView pilihFolder,
+      @NonNull DrawerLayout pusat, @NonNull LinearLayout rootDrawer,
+      @NonNull LinearLayout rootUtama, @NonNull LinearLayout tempatAlat, @NonNull ImageView tutup) {
     this.rootView = rootView;
-    this.folderView = folderView;
+    this.aksi = aksi;
+    this.keluar = keluar;
+    this.kode = kode;
+    this.pilihFolder = pilihFolder;
     this.pusat = pusat;
-    this.view = view;
+    this.rootDrawer = rootDrawer;
+    this.rootUtama = rootUtama;
+    this.tempatAlat = tempatAlat;
+    this.tutup = tutup;
   }
 
   @Override
@@ -64,21 +92,58 @@ public final class CodeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.folder_view;
-      LinearLayout folderView = ViewBindings.findChildViewById(rootView, id);
-      if (folderView == null) {
+      id = R.id.aksi;
+      TextView aksi = ViewBindings.findChildViewById(rootView, id);
+      if (aksi == null) {
+        break missingId;
+      }
+
+      id = R.id.keluar;
+      ImageView keluar = ViewBindings.findChildViewById(rootView, id);
+      if (keluar == null) {
+        break missingId;
+      }
+
+      id = R.id.kode;
+      CodeEditor kode = ViewBindings.findChildViewById(rootView, id);
+      if (kode == null) {
+        break missingId;
+      }
+
+      id = R.id.pilih_folder;
+      ImageView pilihFolder = ViewBindings.findChildViewById(rootView, id);
+      if (pilihFolder == null) {
         break missingId;
       }
 
       DrawerLayout pusat = (DrawerLayout) rootView;
 
-      id = R.id.view;
-      FolderView view = ViewBindings.findChildViewById(rootView, id);
-      if (view == null) {
+      id = R.id.root_drawer;
+      LinearLayout rootDrawer = ViewBindings.findChildViewById(rootView, id);
+      if (rootDrawer == null) {
         break missingId;
       }
 
-      return new CodeBinding((DrawerLayout) rootView, folderView, pusat, view);
+      id = R.id.root_utama;
+      LinearLayout rootUtama = ViewBindings.findChildViewById(rootView, id);
+      if (rootUtama == null) {
+        break missingId;
+      }
+
+      id = R.id.tempat_alat;
+      LinearLayout tempatAlat = ViewBindings.findChildViewById(rootView, id);
+      if (tempatAlat == null) {
+        break missingId;
+      }
+
+      id = R.id.tutup;
+      ImageView tutup = ViewBindings.findChildViewById(rootView, id);
+      if (tutup == null) {
+        break missingId;
+      }
+
+      return new CodeBinding((DrawerLayout) rootView, aksi, keluar, kode, pilihFolder, pusat,
+          rootDrawer, rootUtama, tempatAlat, tutup);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

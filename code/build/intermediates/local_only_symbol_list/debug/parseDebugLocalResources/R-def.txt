@@ -1,6 +1,12 @@
 R_DEF: Internal format may change without notice
 local
-id folder_view
+id aksi
+id keluar
+id kode
+id pilih_folder
 id pusat
-id view
+id root_drawer
+id root_utama
+id tempat_alat
+id tutup
 layout code

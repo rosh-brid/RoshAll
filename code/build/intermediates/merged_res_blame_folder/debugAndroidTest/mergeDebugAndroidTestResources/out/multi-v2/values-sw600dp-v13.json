@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "rosh.code.test.code-mergeDebugAndroidTestResources-31:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "rosh.code.test.code-mergeDebugAndroidTestResources-32:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a8ba6ef993143416fcb6de604444a05b/transformed/appcompat-1.7.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",

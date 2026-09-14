@@ -35,6 +35,7 @@ int drawable folder 0x0
 int drawable gambar 0x0
 int drawable github 0x0
 int drawable ikon 0x0
+int drawable ikon_pilih_folder 0x0
 int drawable ikon_utama 0x0
 int drawable kanan 0x0
 int drawable keluar 0x0

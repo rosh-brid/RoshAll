@@ -28,9 +28,9 @@ rosh.terminal.test.terminal-lifecycle-viewmodel-savedstate-2.6.2-26 /data/user/0
 rosh.terminal.test.terminal-annotation-experimental-1.4.1-27 /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f1fe52eb4edbec6992b06758d1ab1d7a/transformed/annotation-experimental-1.4.1/res
 rosh.terminal.test.terminal-fragment-1.5.4-28 /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f26910c0d372fad88be1ac55ed02e61a/transformed/fragment-1.5.4/res
 rosh.terminal.test.terminal-core-1.16.0-29 /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/res
-rosh.terminal.test.terminal-debug-30 /storage/emulated/0/coding/RoshAll/lib/build/intermediates/packaged_res/debug/packageDebugResources
-rosh.terminal.test.terminal-androidTest-31 /storage/emulated/0/coding/RoshAll/terminal/build/generated/res/resValues/androidTest/debug
-rosh.terminal.test.terminal-mergeDebugAndroidTestResources-32 /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-rosh.terminal.test.terminal-mergeDebugAndroidTestResources-33 /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-rosh.terminal.test.terminal-debugAndroidTest-34 /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
-rosh.terminal.test.terminal-debug-35 /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/packaged_res/debug/packageDebugResources
+rosh.terminal.test.terminal-debug-30 /storage/emulated/0/coding/RoshNew/lib/build/intermediates/packaged_res/debug/packageDebugResources
+rosh.terminal.test.terminal-androidTest-31 /storage/emulated/0/coding/RoshNew/terminal/build/generated/res/resValues/androidTest/debug
+rosh.terminal.test.terminal-mergeDebugAndroidTestResources-32 /storage/emulated/0/coding/RoshNew/terminal/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+rosh.terminal.test.terminal-mergeDebugAndroidTestResources-33 /storage/emulated/0/coding/RoshNew/terminal/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+rosh.terminal.test.terminal-debugAndroidTest-34 /storage/emulated/0/coding/RoshNew/terminal/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+rosh.terminal.test.terminal-debug-35 /storage/emulated/0/coding/RoshNew/terminal/build/intermediates/packaged_res/debug/packageDebugResources

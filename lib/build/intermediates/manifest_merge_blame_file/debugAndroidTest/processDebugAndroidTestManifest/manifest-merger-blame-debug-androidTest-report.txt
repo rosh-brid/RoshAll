@@ -3,37 +3,37 @@
 3    package="rosh.lib.test" >
 4
 5    <uses-sdk
-5-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:5:5-74
+5-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:5:15-41
+6-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:5:15-41
 7        android:targetSdkVersion="24" />
-7-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:5:42-71
+7-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:5:42-71
 8
 9    <instrumentation
-9-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:11:5-15:63
+9-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:11:5-15:63
 10        android:name="android.test.InstrumentationTestRunner"
-10-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:11:22-75
+10-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:11:22-75
 11        android:functionalTest="false"
-11-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:14:22-52
+11-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:13:22-53
+12-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:13:22-53
 13        android:label="Tests for rosh.lib.test"
-13-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:15:22-61
+13-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:15:22-61
 14        android:targetPackage="rosh.lib.test" />
-14-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:12:22-59
+14-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:12:22-59
 15
 16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-16-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-77
-16-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-74
+16-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-77
+16-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-74
 17    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-17-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-78
-17-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-75
+17-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-78
+17-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-75
 18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-18-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-77
-18-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-74
+18-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-77
+18-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-74
 19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
-19-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-89
-19-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-86
+19-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-89
+19-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-86
 20    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
 20-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:7:5-75
 20-->[logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:7:22-72
@@ -60,44 +60,44 @@
 31-->[androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
 32
 33    <application
-33-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:7:5-9:19
+33-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:7:5-9:19
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 34-->[androidx.core:core:1.16.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
 35        android:debuggable="true"
 36        android:extractNativeLibs="true"
 37        android:requestLegacyExternalStorage="true" >
-37-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:18-61
+37-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:18-61
 38        <uses-library android:name="android.test.runner" />
-38-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:8:9-60
-38-->/storage/emulated/0/coding/RoshAll/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13283730681538952121.xml:8:23-57
+38-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:8:9-60
+38-->/storage/emulated/0/coding/RoshNew/lib/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest1535936141977981509.xml:8:23-57
 39
 40        <service
-40-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:9-20:19
+40-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:9-20:19
 41            android:name="rosh.lib.exec.ShellCustom"
-41-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-53
+41-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-53
 42            android:exported="true"
-42-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-36
+42-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-36
 43            android:foregroundServiceType="specialUse" >
-43-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-55
+43-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-55
 44            <property
-44-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-19:59
+44-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-19:59
 45                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-45-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:17-76
+45-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:17-76
 46                android:value="Custom Shell is Running" />
-46-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-56
+46-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-56
 47        </service>
 48
 49        <receiver
-49-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:9-28:20
+49-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:9-28:20
 50            android:name="rosh.lib.exec.TutupService"
-50-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-54
+50-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-54
 51            android:exported="false" >
-51-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-37
+51-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-37
 52            <intent-filter>
-52-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:13-27:29
+52-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:13-27:29
 53                <action android:name="rosh.lib.exec.TUTUP_TERMINAL" />
-53-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:17-71
-53-->[:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:25-68
+53-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:17-71
+53-->[:lib] /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:25-68
 54            </intent-filter>
 55        </receiver>
 56

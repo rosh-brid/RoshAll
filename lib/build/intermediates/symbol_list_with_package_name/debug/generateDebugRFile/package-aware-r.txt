@@ -36,6 +36,7 @@ drawable folder
 drawable gambar
 drawable github
 drawable ikon
+drawable ikon_pilih_folder
 drawable ikon_utama
 drawable kanan
 drawable keluar

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "rosh.code.test.code-mergeDebugAndroidTestResources-31:/values-v23/values-v23.xml",
+            "outputFile": "rosh.code.test.code-mergeDebugAndroidTestResources-32:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a2634bcf6877ac290d7df5d97955d534/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",

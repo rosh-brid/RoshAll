@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "rosh.code.test.code-mergeDebugAndroidTestResources-31:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "rosh.code.test.code-mergeDebugAndroidTestResources-32:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/res/values-en-rXC/values-en-rXC.xml",

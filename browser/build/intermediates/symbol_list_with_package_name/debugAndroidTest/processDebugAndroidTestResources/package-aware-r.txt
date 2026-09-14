@@ -3066,6 +3066,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable ikon
+drawable ikon_pilih_folder
 drawable ikon_utama
 drawable indeterminate_static
 drawable kanan

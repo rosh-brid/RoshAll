@@ -9,7 +9,21 @@
     <LinearLayout
          android:layout_height="match_parent"
          android:layout_width="match_parent"
-         android:orientation="vertical">
+         android:orientation="vertical"
+         android:id="@+id/root_utama">
+
+        <FrameLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:background="@color/bg">
+
+        </FrameLayout>
+
+        <io.github.rosemoe.sora.widget.CodeEditor
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_margin="5dp"
+             android:id="@+id/kode" />
 
     </LinearLayout>
 
@@ -18,6 +32,7 @@
          android:layout_width="310dp"
          android:background="@color/bg"
          android:orientation="horizontal"
+         android:id="@+id/root_drawer"
          android:layout_gravity="start">
 
         <LinearLayout
@@ -26,17 +41,58 @@
              android:gravity="center_horizontal"
              android:orientation="vertical">
 
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:layout_marginBottom="40dp"
+                 android:src="@drawable/keluar"
+                 android:layout_marginTop="10dp"
+                 android:id="@+id/keluar" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:layout_marginBottom="10dp"
+                 android:src="@drawable/ikon_pilih_folder"
+                 android:layout_marginTop="10dp"
+                 android:id="@+id/pilih_folder" />
+
         </LinearLayout>
 
         <LinearLayout
              android:layout_height="match_parent"
              android:layout_width="match_parent"
-             android:id="@+id/folder_view">
+             android:orientation="vertical">
 
-            <rosh.lib.widget.FolderView
+            <FrameLayout
+                 android:layout_height="50dp"
+                 android:layout_width="match_parent">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:fontFamily="@font/alkdots"
+                     android:layout_gravity="center"
+                     android:textStyle="italic|bold"
+                     android:id="@+id/aksi"
+                     android:text="Action" />
+
+                <ImageView
+                     android:layout_height="30dp"
+                     android:layout_width="30dp"
+                     android:layout_marginEnd="10dp"
+                     android:src="@drawable/tutup"
+                     android:id="@+id/tutup"
+                     android:layout_gravity="center_vertical|end" />
+
+            </FrameLayout>
+
+            <LinearLayout
                  android:layout_height="match_parent"
                  android:layout_width="match_parent"
-                 android:id="@+id/view" />
+                 android:id="@+id/tempat_alat">
+
+            </LinearLayout>
 
         </LinearLayout>
 
