@@ -1,4 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+id link
+id nav
 id pusat
+id web
 layout browser

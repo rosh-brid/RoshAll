@@ -46,6 +46,7 @@ int drawable more 0x0
 int drawable musik 0x0
 int drawable nav 0x0
 int drawable pengguna 0x0
+int drawable plugin 0x0
 int drawable potong 0x0
 int drawable rename 0x0
 int drawable salin 0x0

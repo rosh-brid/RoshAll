@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="@color/bg_log"
+     android:gravity="center"
+     android:id="@+id/inti">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:background="@drawable/bg_kotak"
+         android:layout_margin="15dp"
+         android:padding="5dp"
+         android:orientation="vertical"
+         android:backgroundTint="@color/bg_pop"
+         android:id="@+id/anak">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:padding="10dp"
+             android:layout_margin="5dp"
+             android:fontFamily="@font/alkdots"
+             android:textSize="18sp"
+             android:textStyle="bold"
+             android:id="@+id/judul" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_margin="25dp"
+             android:textSize="14sp"
+             android:id="@+id/pesan"
+             android:textStyle="italic" />
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="end"
+             android:layout_margin="15dp">
+
+            <TextView
+                 android:layout_height="40dp"
+                 android:layout_width="80dp"
+                 android:layout_marginEnd="10dp"
+                 android:gravity="center"
+                 android:id="@+id/n"
+                 android:text="Cencel" />
+
+            <TextView
+                 android:layout_height="40dp"
+                 android:layout_width="80dp"
+                 android:gravity="center"
+                 android:id="@+id/y"
+                 android:text="Sure" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -3150,6 +3150,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pengguna
+drawable plugin
 drawable potong
 drawable rename
 drawable salin
@@ -3414,6 +3415,7 @@ id legacy
 id line1
 id line3
 id linear
+id link
 id listMode
 id list_item
 id m3_side_sheet
@@ -3481,6 +3483,7 @@ id nama
 id nama_proses
 id nama_url
 id nama_zip
+id nav
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3681,6 +3684,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id web
 id west
 id withText
 id with_icon

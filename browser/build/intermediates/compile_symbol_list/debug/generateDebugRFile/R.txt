@@ -1,2 +1,5 @@
+int id link 0x0
+int id nav 0x0
 int id pusat 0x0
+int id web 0x0
 int layout browser 0x0

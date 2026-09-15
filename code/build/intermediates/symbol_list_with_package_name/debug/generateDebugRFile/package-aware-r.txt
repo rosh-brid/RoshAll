@@ -1,11 +1,26 @@
 rosh.code
-id aksi
+id aksi_alat
+id folder_list
+id gambar
+id grid
+id inti
 id keluar
 id kode
+id nama
+id nav
 id pilih_folder
+id pilih_plugin
 id pusat
 id root_drawer
 id root_utama
+id simpan
+id tanda
 id tempat_alat
+id tempat_nama_file
 id tutup
 layout code
+layout item_folder_ada
+layout item_folder_kosong
+layout item_list_plugin
+layout item_tempat_nama_file
+string code_app

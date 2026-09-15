@@ -71,9 +71,6 @@ class FolderView @JvmOverloads constructor(
         segarkan()
     }
 
-    // ============================================================
-    //  Klik
-    // ============================================================
     private fun onNodeClicked(node: FileNode, position: Int) {
         if (node.file.isDirectory) {
             treeAdapter.toggleFolder(node, position)
@@ -86,9 +83,6 @@ class FolderView @JvmOverloads constructor(
         }
     }
 
-    // ============================================================
-    //  Public API
-    // ============================================================
     fun segarkan() {
         val visible = mutableListOf<FileNode>()
         try {
@@ -136,9 +130,6 @@ class FolderView @JvmOverloads constructor(
         if (idx >= 0) recyclerView.scrollToPosition(idx)
     }
 
-    // ============================================================
-    //  Internal
-    // ============================================================
     private fun restoreChildren(visible: MutableList<FileNode>, parent: FileNode) {
         val children = try {
             parent.file.listFiles()?.toList() ?: emptyList()
@@ -167,9 +158,6 @@ class FolderView @JvmOverloads constructor(
         ).toInt()
     }
 
-    // ============================================================
-    //  Adapter
-    // ============================================================
     private inner class TreeAdapter(
         private val onItemClick: (FileNode, Int) -> Unit
     ) : RecyclerView.Adapter<TreeAdapter.TreeViewHolder>() {
@@ -241,7 +229,6 @@ class FolderView @JvmOverloads constructor(
                 isClickable = true
                 isFocusable = true
 
-                // Ripple pakai foreground supaya tidak bentrok dgn selection background
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                     val tv = TypedValue()
                     if (itemContext.theme.resolveAttribute(

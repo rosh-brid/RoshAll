@@ -1,3 +1,4 @@
+int id anak 0x0
 int id bersih 0x0
 int id centang 0x0
 int id clear 0x0
@@ -6,6 +7,7 @@ int id grid 0x0
 int id hapus 0x0
 int id inti 0x0
 int id jalur 0x0
+int id judul 0x0
 int id keluar 0x0
 int id memo_apk 0x0
 int id memo_app 0x0
@@ -16,6 +18,7 @@ int id n 0x0
 int id nama 0x0
 int id nav 0x0
 int id opsi_lainya 0x0
+int id pesan 0x0
 int id potong 0x0
 int id pusat 0x0
 int id rename 0x0
@@ -25,10 +28,12 @@ int id salin 0x0
 int id tempat_folder 0x0
 int id tempel 0x0
 int id tutup 0x0
+int id y 0x0
 int layout berkas 0x0
 int layout item_alat_terpilih 0x0
 int layout item_berkas_hor 0x0
 int layout item_berkas_ver 0x0
 int layout pop_file_terpilih 0x0
+int layout pop_pesan 0x0
 int string app_berkas 0x0
 int string buat_file 0x0

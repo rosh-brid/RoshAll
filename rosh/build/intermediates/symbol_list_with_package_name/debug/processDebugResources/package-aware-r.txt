@@ -3227,6 +3227,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pengguna
+drawable plugin
 drawable potong
 drawable rename
 drawable round_content_copy_20
@@ -3324,7 +3325,7 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
-id aksi
+id aksi_alat
 id alertTitle
 id aligned
 id all
@@ -3469,6 +3470,7 @@ id fitXY
 id fixed
 id flip
 id floating
+id folder_list
 id follow
 id forever
 id fragment_container_view_tag
@@ -3513,6 +3515,7 @@ id inward
 id italic
 id item_touch_helper_previous_elevation
 id jalur
+id judul
 id jumpToEnd
 id jumpToStart
 id keluar
@@ -3526,6 +3529,7 @@ id light
 id line1
 id line3
 id linear
+id link
 id listMode
 id list_item
 id m3_side_sheet
@@ -3662,7 +3666,9 @@ id peekHeight
 id pengguna
 id percent
 id persen
+id pesan
 id pilih_folder
+id pilih_plugin
 id pin
 id position
 id postLayout
@@ -3719,6 +3725,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id simpan
 id sin
 id skipCollapsed
 id skipped
@@ -3771,6 +3778,7 @@ id tanda
 id tema
 id tempat_alat
 id tempat_folder
+id tempat_nama_file
 id tempel
 id terminal
 id text
@@ -3828,6 +3836,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id web
 id west
 id wide
 id withText
@@ -3838,6 +3847,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id y
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -3980,8 +3990,12 @@ layout ime_secondary_split_test_activity
 layout item_alat_terpilih
 layout item_berkas_hor
 layout item_berkas_ver
+layout item_folder_ada
+layout item_folder_kosong
 layout item_folder_view_hor
 layout item_folder_view_null
+layout item_list_plugin
+layout item_tempat_nama_file
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4041,6 +4055,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout pop_file_terpilih
+layout pop_pesan
 layout pop_unduh_langsung
 layout pop_unzip
 layout select_dialog_item_material
@@ -4098,6 +4113,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string code_app
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title

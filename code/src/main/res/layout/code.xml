@@ -17,7 +17,73 @@
              android:layout_width="match_parent"
              android:background="@color/bg">
 
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/nav"
+                 android:layout_marginStart="10dp"
+                 android:id="@+id/nav"
+                 android:layout_gravity="center_vertical|start" />
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:gravity="center"
+                 android:layout_gravity="center">
+
+                <ImageView
+                     android:layout_height="35dp"
+                     android:layout_width="35dp"
+                     android:layout_marginEnd="5dp"
+                     android:src="@drawable/kode_editor" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:fontFamily="@font/alkdots"
+                     android:textSize="18sp"
+                     android:text="@string/code_app"
+                     android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:id="@+id/simpan"
+                 android:layout_gravity="center_vertical|end">
+
+                <ImageView
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent"
+                     android:src="@drawable/salin" />
+
+                <TextView
+                     android:layout_height="20dp"
+                     android:layout_width="20dp"
+                     android:gravity="center"
+                     android:textSize="20dp"
+                     android:id="@+id/tanda"
+                     android:textStyle="bold"
+                     android:text="✓" />
+
+            </FrameLayout>
+
         </FrameLayout>
+
+        <HorizontalScrollView
+             android:layout_height="30dp"
+             android:layout_width="match_parent">
+
+            <GridLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="wrap_content"
+                 android:orientation="horizontal"
+                 android:id="@+id/tempat_nama_file">
+
+            </GridLayout>
+
+        </HorizontalScrollView>
 
         <io.github.rosemoe.sora.widget.CodeEditor
              android:layout_height="match_parent"
@@ -57,6 +123,14 @@
                  android:layout_marginTop="10dp"
                  android:id="@+id/pilih_folder" />
 
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:layout_marginBottom="10dp"
+                 android:src="@drawable/plugin"
+                 android:layout_marginTop="10dp"
+                 android:id="@+id/pilih_plugin" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -72,9 +146,10 @@
                      android:layout_height="wrap_content"
                      android:layout_width="wrap_content"
                      android:fontFamily="@font/alkdots"
+                     android:textSize="14sp"
                      android:layout_gravity="center"
                      android:textStyle="italic|bold"
-                     android:id="@+id/aksi"
+                     android:id="@+id/aksi_alat"
                      android:text="Action" />
 
                 <ImageView

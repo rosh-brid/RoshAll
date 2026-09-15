@@ -1,3 +1,6 @@
 rosh.browser
+id link
+id nav
 id pusat
+id web
 layout browser

@@ -3150,6 +3150,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pengguna
+drawable plugin
 drawable potong
 drawable rename
 drawable salin
@@ -3410,6 +3411,7 @@ id inward
 id italic
 id item_touch_helper_previous_elevation
 id jalur
+id judul
 id jumpToEnd
 id jumpToStart
 id keluar
@@ -3545,6 +3547,7 @@ id pathRelative
 id peekHeight
 id percent
 id persen
+id pesan
 id pin
 id position
 id postLayout
@@ -3712,6 +3715,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id y
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -3908,6 +3912,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout pop_file_terpilih
+layout pop_pesan
 layout pop_unduh_langsung
 layout pop_unzip
 layout select_dialog_item_material

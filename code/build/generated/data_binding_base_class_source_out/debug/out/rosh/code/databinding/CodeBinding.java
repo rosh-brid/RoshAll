@@ -4,6 +4,8 @@ package rosh.code.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
+import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -23,7 +25,7 @@ public final class CodeBinding implements ViewBinding {
   private final DrawerLayout rootView;
 
   @NonNull
-  public final TextView aksi;
+  public final TextView aksiAlat;
 
   @NonNull
   public final ImageView keluar;
@@ -32,7 +34,13 @@ public final class CodeBinding implements ViewBinding {
   public final CodeEditor kode;
 
   @NonNull
+  public final ImageView nav;
+
+  @NonNull
   public final ImageView pilihFolder;
+
+  @NonNull
+  public final ImageView pilihPlugin;
 
   @NonNull
   public final DrawerLayout pusat;
@@ -44,24 +52,40 @@ public final class CodeBinding implements ViewBinding {
   public final LinearLayout rootUtama;
 
   @NonNull
+  public final FrameLayout simpan;
+
+  @NonNull
+  public final TextView tanda;
+
+  @NonNull
   public final LinearLayout tempatAlat;
+
+  @NonNull
+  public final GridLayout tempatNamaFile;
 
   @NonNull
   public final ImageView tutup;
 
-  private CodeBinding(@NonNull DrawerLayout rootView, @NonNull TextView aksi,
-      @NonNull ImageView keluar, @NonNull CodeEditor kode, @NonNull ImageView pilihFolder,
-      @NonNull DrawerLayout pusat, @NonNull LinearLayout rootDrawer,
-      @NonNull LinearLayout rootUtama, @NonNull LinearLayout tempatAlat, @NonNull ImageView tutup) {
+  private CodeBinding(@NonNull DrawerLayout rootView, @NonNull TextView aksiAlat,
+      @NonNull ImageView keluar, @NonNull CodeEditor kode, @NonNull ImageView nav,
+      @NonNull ImageView pilihFolder, @NonNull ImageView pilihPlugin, @NonNull DrawerLayout pusat,
+      @NonNull LinearLayout rootDrawer, @NonNull LinearLayout rootUtama,
+      @NonNull FrameLayout simpan, @NonNull TextView tanda, @NonNull LinearLayout tempatAlat,
+      @NonNull GridLayout tempatNamaFile, @NonNull ImageView tutup) {
     this.rootView = rootView;
-    this.aksi = aksi;
+    this.aksiAlat = aksiAlat;
     this.keluar = keluar;
     this.kode = kode;
+    this.nav = nav;
     this.pilihFolder = pilihFolder;
+    this.pilihPlugin = pilihPlugin;
     this.pusat = pusat;
     this.rootDrawer = rootDrawer;
     this.rootUtama = rootUtama;
+    this.simpan = simpan;
+    this.tanda = tanda;
     this.tempatAlat = tempatAlat;
+    this.tempatNamaFile = tempatNamaFile;
     this.tutup = tutup;
   }
 
@@ -92,9 +116,9 @@ public final class CodeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.aksi;
-      TextView aksi = ViewBindings.findChildViewById(rootView, id);
-      if (aksi == null) {
+      id = R.id.aksi_alat;
+      TextView aksiAlat = ViewBindings.findChildViewById(rootView, id);
+      if (aksiAlat == null) {
         break missingId;
       }
 
@@ -110,9 +134,21 @@ public final class CodeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.nav;
+      ImageView nav = ViewBindings.findChildViewById(rootView, id);
+      if (nav == null) {
+        break missingId;
+      }
+
       id = R.id.pilih_folder;
       ImageView pilihFolder = ViewBindings.findChildViewById(rootView, id);
       if (pilihFolder == null) {
+        break missingId;
+      }
+
+      id = R.id.pilih_plugin;
+      ImageView pilihPlugin = ViewBindings.findChildViewById(rootView, id);
+      if (pilihPlugin == null) {
         break missingId;
       }
 
@@ -130,9 +166,27 @@ public final class CodeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.simpan;
+      FrameLayout simpan = ViewBindings.findChildViewById(rootView, id);
+      if (simpan == null) {
+        break missingId;
+      }
+
+      id = R.id.tanda;
+      TextView tanda = ViewBindings.findChildViewById(rootView, id);
+      if (tanda == null) {
+        break missingId;
+      }
+
       id = R.id.tempat_alat;
       LinearLayout tempatAlat = ViewBindings.findChildViewById(rootView, id);
       if (tempatAlat == null) {
+        break missingId;
+      }
+
+      id = R.id.tempat_nama_file;
+      GridLayout tempatNamaFile = ViewBindings.findChildViewById(rootView, id);
+      if (tempatNamaFile == null) {
         break missingId;
       }
 
@@ -142,8 +196,9 @@ public final class CodeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new CodeBinding((DrawerLayout) rootView, aksi, keluar, kode, pilihFolder, pusat,
-          rootDrawer, rootUtama, tempatAlat, tutup);
+      return new CodeBinding((DrawerLayout) rootView, aksiAlat, keluar, kode, nav, pilihFolder,
+          pilihPlugin, pusat, rootDrawer, rootUtama, simpan, tanda, tempatAlat, tempatNamaFile,
+          tutup);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

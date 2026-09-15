@@ -29,9 +29,9 @@ rosh.code.test.code-lifecycle-viewmodel-savedstate-2.6.2-27 /data/user/0/com.tom
 rosh.code.test.code-annotation-experimental-1.4.1-28 /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f1fe52eb4edbec6992b06758d1ab1d7a/transformed/annotation-experimental-1.4.1/res
 rosh.code.test.code-fragment-1.5.4-29 /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f26910c0d372fad88be1ac55ed02e61a/transformed/fragment-1.5.4/res
 rosh.code.test.code-core-1.16.0-30 /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/res
-rosh.code.test.code-androidTest-31 /storage/emulated/0/coding/RoshNew/code/build/generated/res/resValues/androidTest/debug
-rosh.code.test.code-mergeDebugAndroidTestResources-32 /storage/emulated/0/coding/RoshNew/code/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-rosh.code.test.code-mergeDebugAndroidTestResources-33 /storage/emulated/0/coding/RoshNew/code/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-rosh.code.test.code-debugAndroidTest-34 /storage/emulated/0/coding/RoshNew/code/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
-rosh.code.test.code-debug-35 /storage/emulated/0/coding/RoshNew/code/build/intermediates/packaged_res/debug/packageDebugResources
-rosh.code.test.code-debug-36 /storage/emulated/0/coding/RoshNew/lib/build/intermediates/packaged_res/debug/packageDebugResources
+rosh.code.test.code-androidTest-31 /storage/emulated/0/coding/RoshAll/code/build/generated/res/resValues/androidTest/debug
+rosh.code.test.code-mergeDebugAndroidTestResources-32 /storage/emulated/0/coding/RoshAll/code/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+rosh.code.test.code-mergeDebugAndroidTestResources-33 /storage/emulated/0/coding/RoshAll/code/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+rosh.code.test.code-debugAndroidTest-34 /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+rosh.code.test.code-debug-35 /storage/emulated/0/coding/RoshAll/code/build/intermediates/packaged_res/debug/packageDebugResources
+rosh.code.test.code-debug-36 /storage/emulated/0/coding/RoshAll/lib/build/intermediates/packaged_res/debug/packageDebugResources

@@ -28,8 +28,8 @@ rosh.lib.test.lib-lifecycle-viewmodel-savedstate-2.6.2-26 /data/user/0/com.tom.r
 rosh.lib.test.lib-annotation-experimental-1.4.1-27 /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f1fe52eb4edbec6992b06758d1ab1d7a/transformed/annotation-experimental-1.4.1/res
 rosh.lib.test.lib-fragment-1.5.4-28 /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f26910c0d372fad88be1ac55ed02e61a/transformed/fragment-1.5.4/res
 rosh.lib.test.lib-core-1.16.0-29 /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/f4c206b34a49217c3743353326b89aca/transformed/core-1.16.0/res
-rosh.lib.test.lib-androidTest-30 /storage/emulated/0/coding/RoshNew/lib/build/generated/res/resValues/androidTest/debug
-rosh.lib.test.lib-mergeDebugAndroidTestResources-31 /storage/emulated/0/coding/RoshNew/lib/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-rosh.lib.test.lib-mergeDebugAndroidTestResources-32 /storage/emulated/0/coding/RoshNew/lib/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-rosh.lib.test.lib-debugAndroidTest-33 /storage/emulated/0/coding/RoshNew/lib/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
-rosh.lib.test.lib-debug-34 /storage/emulated/0/coding/RoshNew/lib/build/intermediates/packaged_res/debug/packageDebugResources
+rosh.lib.test.lib-androidTest-30 /storage/emulated/0/coding/RoshAll/lib/build/generated/res/resValues/androidTest/debug
+rosh.lib.test.lib-mergeDebugAndroidTestResources-31 /storage/emulated/0/coding/RoshAll/lib/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+rosh.lib.test.lib-mergeDebugAndroidTestResources-32 /storage/emulated/0/coding/RoshAll/lib/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+rosh.lib.test.lib-debugAndroidTest-33 /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+rosh.lib.test.lib-debug-34 /storage/emulated/0/coding/RoshAll/lib/build/intermediates/packaged_res/debug/packageDebugResources

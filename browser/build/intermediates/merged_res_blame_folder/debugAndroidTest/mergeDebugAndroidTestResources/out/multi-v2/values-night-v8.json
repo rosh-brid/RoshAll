@@ -4,17 +4,6 @@
             "outputFile": "rosh.browser.test.browser-mergeDebugAndroidTestResources-31:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/storage/emulated/0/coding/RoshNew/lib/build/intermediates/packaged_res/debug/packageDebugResources/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,92,135,176,215,257,299,343,387,426,711",
-                        "endLines": "2,3,4,5,6,7,8,9,10,15,16",
-                        "endColumns": "36,42,40,38,41,41,43,43,38,12,52",
-                        "endOffsets": "87,130,171,210,252,294,338,382,421,706,759"
-                    }
-                },
-                {
                     "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a8ba6ef993143416fcb6de604444a05b/transformed/appcompat-1.7.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -46,6 +35,17 @@
                         "startOffsets": "1396,1471,1582,1671,1772,1879,1986,2085,2192,2295,2422,2510,2634,2736,2838,2954,3056,3170,3298,3414,3536,3672,3792,3926,4046,4158,4373,4490,4614,4744,4866,5004,5138,5254",
                         "endColumns": "74,110,88,100,106,106,98,106,102,126,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1466,1577,1666,1767,1874,1981,2080,2187,2290,2417,2505,2629,2731,2833,2949,3051,3165,3293,3409,3531,3667,3787,3921,4041,4153,4279,4485,4609,4739,4861,4999,5133,5249,5369"
+                    }
+                },
+                {
+                    "source": "/storage/emulated/0/coding/RoshAll/lib/build/intermediates/packaged_res/debug/packageDebugResources/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,92,135,176,215,257,299,343,387,426,711",
+                        "endLines": "2,3,4,5,6,7,8,9,10,15,16",
+                        "endColumns": "36,42,40,38,41,41,43,43,38,12,52",
+                        "endOffsets": "87,130,171,210,252,294,338,382,421,706,759"
                     }
                 }
             ]

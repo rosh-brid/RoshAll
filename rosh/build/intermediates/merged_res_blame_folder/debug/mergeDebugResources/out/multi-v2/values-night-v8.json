@@ -4,25 +4,6 @@
             "outputFile": "rosh.rosh-mergeDebugResources-39:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/storage/emulated/0/coding/RoshNew/lib/build/intermediates/packaged_res/debug/packageDebugResources/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,92,135,176,215,257,299,343,387,426,711",
-                        "endLines": "2,3,4,5,6,7,8,9,10,15,16",
-                        "endColumns": "36,42,40,38,41,41,43,43,38,12,52",
-                        "endOffsets": "87,130,171,210,252,294,338,382,421,706,759"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,8,9,10,11,12,13,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,92,135,176,381,423,465,509,553,592,877",
-                        "endLines": "2,3,4,5,8,9,10,11,12,17,18",
-                        "endColumns": "36,42,40,38,41,41,43,43,38,12,52",
-                        "endOffsets": "87,130,171,210,418,460,504,548,587,872,925"
-                    }
-                },
-                {
                     "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a8ba6ef993143416fcb6de604444a05b/transformed/appcompat-1.7.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -71,6 +52,25 @@
                         "startOffsets": "1562,1637,1748,1837,1938,2045,2152,2251,2358,2461,2588,2676,2800,2902,3004,3120,3222,3336,3464,3580,3702,3838,3958,4092,4212,4324,4539,4656,4780,4910,5032,5170,5304,5420",
                         "endColumns": "74,110,88,100,106,106,98,106,102,126,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1632,1743,1832,1933,2040,2147,2246,2353,2456,2583,2671,2795,2897,2999,3115,3217,3331,3459,3575,3697,3833,3953,4087,4207,4319,4445,4651,4775,4905,5027,5165,5299,5415,5535"
+                    }
+                },
+                {
+                    "source": "/storage/emulated/0/coding/RoshAll/lib/build/intermediates/packaged_res/debug/packageDebugResources/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,92,135,176,215,257,299,343,387,426,711",
+                        "endLines": "2,3,4,5,6,7,8,9,10,15,16",
+                        "endColumns": "36,42,40,38,41,41,43,43,38,12,52",
+                        "endOffsets": "87,130,171,210,252,294,338,382,421,706,759"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,8,9,10,11,12,13,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,92,135,176,381,423,465,509,553,592,877",
+                        "endLines": "2,3,4,5,8,9,10,11,12,17,18",
+                        "endColumns": "36,42,40,38,41,41,43,43,38,12,52",
+                        "endOffsets": "87,130,171,210,418,460,504,548,587,872,925"
                     }
                 }
             ]

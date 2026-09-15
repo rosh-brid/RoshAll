@@ -47,6 +47,7 @@ drawable more
 drawable musik
 drawable nav
 drawable pengguna
+drawable plugin
 drawable potong
 drawable rename
 drawable salin

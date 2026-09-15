@@ -4,12 +4,17 @@ package rosh.browser.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+import android.widget.EditText;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 import rosh.browser.R;
 
 public final class BrowserBinding implements ViewBinding {
@@ -17,11 +22,24 @@ public final class BrowserBinding implements ViewBinding {
   private final DrawerLayout rootView;
 
   @NonNull
+  public final EditText link;
+
+  @NonNull
+  public final ImageView nav;
+
+  @NonNull
   public final DrawerLayout pusat;
 
-  private BrowserBinding(@NonNull DrawerLayout rootView, @NonNull DrawerLayout pusat) {
+  @NonNull
+  public final WebView web;
+
+  private BrowserBinding(@NonNull DrawerLayout rootView, @NonNull EditText link,
+      @NonNull ImageView nav, @NonNull DrawerLayout pusat, @NonNull WebView web) {
     this.rootView = rootView;
+    this.link = link;
+    this.nav = nav;
     this.pusat = pusat;
+    this.web = web;
   }
 
   @Override
@@ -47,12 +65,33 @@ public final class BrowserBinding implements ViewBinding {
 
   @NonNull
   public static BrowserBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.link;
+      EditText link = ViewBindings.findChildViewById(rootView, id);
+      if (link == null) {
+        break missingId;
+      }
+
+      id = R.id.nav;
+      ImageView nav = ViewBindings.findChildViewById(rootView, id);
+      if (nav == null) {
+        break missingId;
+      }
+
+      DrawerLayout pusat = (DrawerLayout) rootView;
+
+      id = R.id.web;
+      WebView web = ViewBindings.findChildViewById(rootView, id);
+      if (web == null) {
+        break missingId;
+      }
+
+      return new BrowserBinding((DrawerLayout) rootView, link, nav, pusat, web);
     }
-
-    DrawerLayout pusat = (DrawerLayout) rootView;
-
-    return new BrowserBinding((DrawerLayout) rootView, pusat);
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

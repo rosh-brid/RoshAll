@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+id anak
 id bersih
 id centang
 id clear
@@ -8,6 +9,7 @@ id grid
 id hapus
 id inti
 id jalur
+id judul
 id keluar
 id memo_apk
 id memo_app
@@ -18,6 +20,7 @@ id n
 id nama
 id nav
 id opsi_lainya
+id pesan
 id potong
 id pusat
 id rename
@@ -27,10 +30,12 @@ id salin
 id tempat_folder
 id tempel
 id tutup
+id y
 layout berkas
 layout item_alat_terpilih
 layout item_berkas_hor
 layout item_berkas_ver
 layout pop_file_terpilih
+layout pop_pesan
 string app_berkas
 string buat_file
