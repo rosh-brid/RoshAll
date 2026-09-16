@@ -145,5 +145,13 @@ class MainActivity : AppCompatActivity() {
         Klik(findViewById<LinearLayout>(R.id.code)).sekali{
             startActivity(Intent(this, rosh.code.Code::class.java))
         }
+        
+        Klik(findViewById<LinearLayout>(R.id.bahasa)).sekali{
+            
+        }
+        
+        Klik(findViewById<LinearLayout>(R.id.pengguna)).sekali{
+        
+        }
     }
 }
