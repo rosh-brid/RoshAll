@@ -13,6 +13,8 @@
         android:label="Tests for rosh.code.test"
         android:targetPackage="rosh.code.test" />
 
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
 
@@ -37,6 +39,31 @@
         android:extractNativeLibs="false"
         android:requestLegacyExternalStorage="true" >
         <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="rosh.code.Code"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content" />
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
 
         <provider
             android:name="io.github.mohammedbaqernull.logger.logwire.LogWireInitializer"

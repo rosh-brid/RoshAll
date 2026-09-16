@@ -9,6 +9,7 @@ import android.content.*
 import android.view.*
 import android.content.res.Configuration
 import android.graphics.*
+import android.net.*
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
@@ -121,6 +122,12 @@ class MainActivity : AppCompatActivity() {
         
         Klik(findViewById<LinearLayout>(R.id.tema)).sekali{
             GantiTema()
+        }
+        
+        Klik(findViewById<ImageView>(R.id.git)).sekali {
+            val link = "https://github.com/rosh-brid/RoshAll"
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(link))
+            startActivity(intent)
         }
         
         Klik(findViewById<LinearLayout>(R.id.terminal)).sekali{

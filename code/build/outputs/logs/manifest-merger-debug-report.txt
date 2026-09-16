@@ -1,16 +1,60 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /storage/emulated/0/coding/RoshAll/code/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest4403801242088422306.xml:2:13-83
-INJECTED from /storage/emulated/0/coding/RoshAll/code/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest4403801242088422306.xml:2:13-83
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:2:1-26:12
 	package
-		INJECTED from /storage/emulated/0/coding/RoshAll/code/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest4403801242088422306.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /storage/emulated/0/coding/RoshAll/code/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest4403801242088422306.xml:2:23-81
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:4:22-79
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:5:22-78
+application
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:7:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:8:9-52
+activity#rosh.code.Code
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:9:9-24:20
+	android:exported
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:10:13-36
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:11:13-33
+intent-filter#action:name:android.intent.action.EDIT+action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:*/*+data:mimeType:*/*+data:scheme:content+data:scheme:file
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:12:13-18:29
+action#android.intent.action.VIEW
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:13:25-66
+action#android.intent.action.EDIT
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.DEFAULT
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:15:17-76
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:15:27-73
+data
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:17-73
+	android:scheme
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:23-47
+	android:mimeType
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:48-70
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.SEND
+ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:20:25-66
 uses-sdk
-INJECTED from /storage/emulated/0/coding/RoshAll/code/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest4403801242088422306.xml reason: use-sdk injection requested
-INJECTED from /storage/emulated/0/coding/RoshAll/code/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest4403801242088422306.xml
-INJECTED from /storage/emulated/0/coding/RoshAll/code/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest4403801242088422306.xml
+INJECTED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml
+INJECTED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /storage/emulated/0/coding/RoshAll/code/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest4403801242088422306.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /storage/emulated/0/coding/RoshAll/code/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest4403801242088422306.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml

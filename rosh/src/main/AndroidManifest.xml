@@ -31,6 +31,7 @@
         
         <activity
             android:name="rosh.browser.Browser"
+            android:usesCleartextTraffic="true"
             android:exported="true">
         
         </activity>

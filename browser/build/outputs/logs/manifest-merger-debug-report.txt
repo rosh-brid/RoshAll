@@ -1,16 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /storage/emulated/0/coding/RoshAll/browser/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1879222981063659279.xml:2:13-83
-INJECTED from /storage/emulated/0/coding/RoshAll/browser/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1879222981063659279.xml:2:13-83
+ADDED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml:1:1-3:12
 	package
-		INJECTED from /storage/emulated/0/coding/RoshAll/browser/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1879222981063659279.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /storage/emulated/0/coding/RoshAll/browser/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1879222981063659279.xml:2:23-81
+		ADDED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml:2:5-66
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml:2:22-64
 uses-sdk
-INJECTED from /storage/emulated/0/coding/RoshAll/browser/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1879222981063659279.xml reason: use-sdk injection requested
-INJECTED from /storage/emulated/0/coding/RoshAll/browser/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1879222981063659279.xml
-INJECTED from /storage/emulated/0/coding/RoshAll/browser/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1879222981063659279.xml
+INJECTED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml
+INJECTED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /storage/emulated/0/coding/RoshAll/browser/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1879222981063659279.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /storage/emulated/0/coding/RoshAll/browser/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1879222981063659279.xml
+		INJECTED from /storage/emulated/0/coding/RoshAll/browser/src/main/AndroidManifest.xml

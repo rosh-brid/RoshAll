@@ -61,6 +61,7 @@ drawable video
 font alkbasri
 font alkdots
 font extrasquare
+font nateli
 font sanet
 id anak
 id anak_view_persen

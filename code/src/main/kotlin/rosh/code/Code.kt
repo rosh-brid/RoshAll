@@ -1,5 +1,7 @@
 package rosh.code
 
+import rosh.code.lib.Plugin
+
 import rosh.lib.aksi.Klik
 import rosh.lib.os.ui.Inset
 import rosh.view.ikon.IkonFile
@@ -26,6 +28,8 @@ import io.github.rosemoe.sora.widget.CodeEditor
 import io.github.rosemoe.sora.widget.schemes.EditorColorScheme
 import io.github.rosemoe.sora.text.Content
 import io.github.rosemoe.sora.text.ContentListener
+import io.github.rosemoe.sora.widget.SymbolPairMatch
+import io.github.rosemoe.sora.lang.EmptyLanguage
 
 class Code : AppCompatActivity(){
 
@@ -108,6 +112,8 @@ class Code : AppCompatActivity(){
         AturEditor()
         MuatFolder()
         PerbaruiSimpan()
+        AturPasangan()
+        TerimaIntent(intent)
     }
     
     private fun uriKeFile(uri: Uri): File? {
@@ -126,30 +132,6 @@ class Code : AppCompatActivity(){
         window.navigationBarColor = getColor(rosh.lib.R.color.bg)
         WindowCompat.getInsetsController( window, window.decorView
         ).isAppearanceLightStatusBars = !dark
-    }
-    
-    private fun AturEditor() {
-        val bg = getColor(rosh.lib.R.color.ui_bg)
-        val tulisan = getColor(rosh.lib.R.color.tulisan)
-        val biru = getColor(rosh.lib.R.color.ui_biru)
-
-        val scheme = object : EditorColorScheme() {
-            override fun applyDefault() {
-                super.applyDefault()
-
-                setColor(WHOLE_BACKGROUND, bg)
-                setColor(LINE_NUMBER_BACKGROUND, bg)
-                setColor(TEXT_NORMAL, tulisan)
-                setColor(LINE_NUMBER, tulisan)
-                setColor(LINE_NUMBER_CURRENT, tulisan)
-                setColor(SELECTED_TEXT_BACKGROUND, biru)
-                setColor(CURRENT_LINE, 0x11FFFFFF)       
-                setColor(LINE_DIVIDER, 0x33FFFFFF)
-                setColor(BLOCK_LINE, 0x33FFFFFF)  
-            }
-        }
-
-        kode.colorScheme = scheme 
     }
     
     private fun MuatFolder(){
@@ -354,6 +336,67 @@ class Code : AppCompatActivity(){
         tanda.setTextColor(if (bersih) 0xFF4CAF50.toInt() else 0xFFE53935.toInt())
     }
     
+    private fun uriKeFileUmum(uri: Uri): File? {
+        if (uri.scheme == "file") {
+            return uri.path?.let { File(it) }
+        }
+        var nama = "dibagikan.txt"
+        try {
+        contentResolver.query(uri, null, null, null, null)?.use { c ->
+            val idx = c.getColumnIndex(OpenableColumns.DISPLAY_NAME)
+            if (idx >= 0 && c.moveToFirst()) nama = c.getString(idx)
+        }
+    } catch (_: Exception) {}
+
+    return try {
+        val target = File(cacheDir, "terima/$nama")
+        target.parentFile?.mkdirs()
+        contentResolver.openInputStream(uri)?.use { input ->
+            target.outputStream().use { output -> input.copyTo(output) }
+        }
+        target
+        } catch (e: Exception) { null }
+    }
+    
+    private fun TerimaIntent(i: Intent?) {
+    if (i == null) return
+
+    val uri: Uri? = i.data
+        ?: if (Build.VERSION.SDK_INT >= 33)
+               i.getParcelableExtra(Intent.EXTRA_STREAM, Uri::class.java)
+           else
+               @Suppress("DEPRECATION")
+               i.getParcelableExtra(Intent.EXTRA_STREAM)
+
+    if (uri != null) {
+        val file = uriKeFileUmum(uri)
+        if (file != null && file.exists()) {
+            BukaFile(file)
+        } else {
+            Toast.makeText(this, "Gagal menerima file", Toast.LENGTH_SHORT).show()
+        }
+        return
+    }
+
+    if (i.action == Intent.ACTION_SEND) {
+        val teks = i.getStringExtra(Intent.EXTRA_TEXT)
+        if (teks != null) {
+            sedangGantiTab = true
+            kode.setText(teks)
+            sedangGantiTab = false
+            PasangListenerTeks()
+            Toast.makeText(this, "Teks diterima (belum punya file)", Toast.LENGTH_SHORT).show()
+        }
+    }
+}
+
+override fun onNewIntent(intent: Intent) {
+    super.onNewIntent(intent)
+    setIntent(intent)
+    TerimaIntent(intent)
+}
+
+    
     private fun Keluar(){
         finish()
     }
@@ -394,4 +437,41 @@ class Code : AppCompatActivity(){
             SimpanFile()
         }
     }
+    
+    private fun AturEditor() {
+        val bg = getColor(rosh.lib.R.color.ui_bg)
+        val tulisan = getColor(rosh.lib.R.color.tulisan)
+        val biru = getColor(rosh.lib.R.color.ui_biru)
+
+        val scheme = object : EditorColorScheme() {
+            override fun applyDefault() {
+                super.applyDefault()
+
+                setColor(WHOLE_BACKGROUND, bg)
+                setColor(LINE_NUMBER_BACKGROUND, bg)
+                setColor(TEXT_NORMAL, tulisan)
+                setColor(LINE_NUMBER, tulisan)
+                setColor(LINE_NUMBER_CURRENT, tulisan)
+                setColor(SELECTED_TEXT_BACKGROUND, biru)
+                setColor(CURRENT_LINE, 0x11FFFFFF)       
+                setColor(LINE_DIVIDER, 0x33FFFFFF)
+                setColor(BLOCK_LINE, 0x33FFFFFF)  
+            }
+        }
+
+        kode.colorScheme = scheme 
+    }
+    
+    private fun AturPasangan() {
+    val pasangan = SymbolPairMatch()
+
+    pasangan.putPair('(', SymbolPairMatch.SymbolPair("(", ")"))
+    pasangan.putPair('{', SymbolPairMatch.SymbolPair("{", "}"))
+    pasangan.putPair('[', SymbolPairMatch.SymbolPair("[", "]"))
+    pasangan.putPair('"', SymbolPairMatch.SymbolPair("\"", "\""))
+    pasangan.putPair('\'', SymbolPairMatch.SymbolPair("'", "'"))
+
+    //kode.setSymbolPairMatch(pasangan)
+    }
+
 }

@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-46:12
 MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:2:1-21:12
 MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-19:12
 MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-17:12
-MERGED from [:browser] /storage/emulated/0/coding/RoshAll/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
-MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:browser] /storage/emulated/0/coding/RoshAll/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-9:12
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-37:12
 MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.databinding:viewbinding:8.9.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/180f2080d0af5afc9f1f31e22a327685/transformed/viewbinding-8.9.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a75b7acbc6e74d769388802345f258e5/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
@@ -77,14 +77,16 @@ ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:3:22-84
 application
-ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:4:5-43:19
-INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:4:5-43:19
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:4:5-44:19
+INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:4:5-44:19
 MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:14:5-19:19
 MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:14:5-19:19
 MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-17:19
 MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-17:19
 MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-15:19
 MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-15:19
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-35:19
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-35:19
 MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-29:19
 MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-29:19
 MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a75b7acbc6e74d769388802345f258e5/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
@@ -164,17 +166,21 @@ ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:27:13-46
 activity#rosh.browser.Browser
-ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:32:9-36:20
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:32:9-37:20
 	android:exported
-		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:35:13-36
+	android:usesCleartextTraffic
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:34:13-48
 	android:name
 		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:33:13-48
 activity#rosh.code.Code
-ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:38:9-42:20
+ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:39:9-43:20
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:9-34:20
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:9-34:20
 	android:exported
-		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:40:13-36
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:41:13-36
 	android:name
-		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:39:13-42
+		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:40:13-42
 uses-sdk
 INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml
@@ -327,6 +333,8 @@ ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/c
 		ADDED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:16:13-89
 uses-permission#android.permission.INTERNET
 ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
+MERGED from [:browser] /storage/emulated/0/coding/RoshAll/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
+MERGED from [:browser] /storage/emulated/0/coding/RoshAll/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
 	android:name
 		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
@@ -343,12 +351,16 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-81
 MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-81
 MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-81
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-81
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-81
 	android:name
 		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
 ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-82
 MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-82
 MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-82
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-82
+MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-82
 	android:name
 		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:22-79
 uses-permission#android.permission.READ_LOGS
@@ -361,6 +373,32 @@ MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/me
 MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-77
 	android:name
 		ADDED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-74
+intent-filter#action:name:android.intent.action.EDIT+action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:*/*+data:mimeType:*/*+data:scheme:content+data:scheme:file
+ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-26:29
+action#android.intent.action.VIEW
+ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:25-66
+action#android.intent.action.EDIT
+ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:25-66
+category#android.intent.category.DEFAULT
+ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:27-73
+data
+ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:17-22:48
+	android:scheme
+		ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:21-45
+	android:mimeType
+		ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:21-43
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:13-33:29
+action#android.intent.action.SEND
+ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:25-66
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-78
 	android:name

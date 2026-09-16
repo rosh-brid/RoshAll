@@ -3166,6 +3166,7 @@ drawable video
 font alkbasri
 font alkdots
 font extrasquare
+font nateli
 font sanet
 id ALT
 id BOTTOM_END

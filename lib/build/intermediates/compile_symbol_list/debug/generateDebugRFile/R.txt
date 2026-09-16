@@ -59,6 +59,7 @@ int drawable video 0x0
 int font alkbasri 0x0
 int font alkdots 0x0
 int font extrasquare 0x0
+int font nateli 0x0
 int font sanet 0x0
 int id anak 0x0
 int id anak_view_persen 0x0
