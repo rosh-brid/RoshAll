@@ -22,13 +22,47 @@
 12    <uses-permission android:name="android.permission.READ_LOGS" />
 12-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:8:5-67
 12-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:8:22-65
-13
-14    <application
-14-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:10:5-14:19
-15        android:requestForegroundServiceExemption="true"
-15-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:11:9-57
-16        android:requestLegacyExternalStorage="true" >
-16-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:12:9-52
-17    </application>
-18
-19</manifest>
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:9:5-77
+13-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:9:22-74
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+14-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:10:5-89
+14-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:10:22-86
+15    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+15-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:11:5-77
+15-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:11:22-75
+16
+17    <application
+17-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:13:5-34:19
+18        android:requestForegroundServiceExemption="true"
+18-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:14:9-57
+19        android:requestLegacyExternalStorage="true" >
+19-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:15:9-52
+20        <activity
+20-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:17:9-22:20
+21            android:name="rosh.terminal.Terminal"
+21-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:20:13-37
+22            android:exported="true"
+22-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:18:13-36
+23            android:windowSoftInputMode="adjustResize" >
+23-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:19:13-55
+24        </activity>
+25
+26        <service
+26-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:24:9-33:19
+27            android:name="rosh.terminal.exec.ShellCustom"
+27-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:25:13-45
+28            android:exported="false"
+28-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:27:13-37
+29            android:foregroundServiceType="specialUse" >
+29-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:26:13-55
+30            <property
+30-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:29:13-31:58
+31                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+31-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:30:17-76
+32                android:value="Terminal shell session" />
+32-->/storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:31:17-55
+33        </service>
+34    </application>
+35
+36</manifest>

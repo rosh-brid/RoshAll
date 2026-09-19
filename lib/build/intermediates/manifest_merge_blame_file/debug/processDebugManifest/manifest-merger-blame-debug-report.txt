@@ -18,37 +18,8 @@
 10-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:7:22-86
 11
 12    <application android:requestLegacyExternalStorage="true" >
-12-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:9:5-29:19
+12-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:9:5-12:19
 12-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:10:9-52
-13        <service
-13-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:12:9-19:19
-14            android:name="rosh.lib.exec.ShellCustom"
-14-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:13:13-53
-15            android:exported="true"
-15-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:15:13-36
-16            android:foregroundServiceType="specialUse" >
-16-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:14:13-55
-17            <property
-17-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:16:13-18:59
-18                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-18-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:17:17-76
-19                android:value="Custom Shell is Running" />
-19-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:18:17-56
-20        </service>
-21
-22        <receiver
-22-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:21:9-27:20
-23            android:name="rosh.lib.exec.TutupService"
-23-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:22:13-54
-24            android:exported="false" >
-24-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:23:13-37
-25            <intent-filter>
-25-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:24:13-26:29
-26                <action android:name="rosh.lib.exec.TUTUP_TERMINAL" />
-26-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:25:17-71
-26-->/storage/emulated/0/coding/RoshAll/lib/src/main/AndroidManifest.xml:25:25-68
-27            </intent-filter>
-28        </receiver>
-29    </application>
-30
-31</manifest>
+13    </application>
+14
+15</manifest>

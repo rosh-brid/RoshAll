@@ -26,7 +26,6 @@ class Download(private val kelas: Activity) {
     private var setDirPath: String? = null
     private var namaFileDownload: String? = null
 
-    // ==== TAMBAHAN: callback selesai & file hasil ====
     private var onSelesai: ((sukses: Boolean, file: File?) -> Unit)? = null
 
     init {
@@ -153,19 +152,18 @@ class Download(private val kelas: Activity) {
                     persen.text = "100%"
                     ukuran.text = ukuran(sudah)
                     pop.dismiss()
-                    onSelesai?.invoke(true, file)   // ==== SUKSES ====
+                    onSelesai?.invoke(true, file)   
                 }
             } else {
-                // Dibatalkan user: hapus file setengah jadi
                 file.delete()
                 kelas.runOnUiThread {
-                    onSelesai?.invoke(false, null)  // ==== BATAL ====
+                    onSelesai?.invoke(false, null)  
                 }
             }
 
         } catch (e: Exception) {
             e.printStackTrace()
-            file?.delete()  // hapus file korup
+            file?.delete() 
             kelas.runOnUiThread {
                 if (jalan) {
                     Toast.makeText(
@@ -175,7 +173,7 @@ class Download(private val kelas: Activity) {
                     ).show()
                     pop.dismiss()
                 }
-                onSelesai?.invoke(false, null)      // ==== GAGAL ====
+                onSelesai?.invoke(false, null)     
             }
         } finally {
             koneksi?.disconnect()

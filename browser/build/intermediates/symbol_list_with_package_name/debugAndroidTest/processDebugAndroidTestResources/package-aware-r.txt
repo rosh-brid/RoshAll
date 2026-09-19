@@ -3069,6 +3069,7 @@ drawable ikon
 drawable ikon_pilih_folder
 drawable ikon_utama
 drawable indeterminate_static
+drawable kaca_pembesar
 drawable kanan
 drawable keluar
 drawable kode_editor
@@ -3246,6 +3247,7 @@ id all
 id allStates
 id always
 id anak
+id anak_proses
 id anak_view_persen
 id animateToEnd
 id animateToStart
@@ -3275,6 +3277,7 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cari
 id carryVelocity
 id center
 id centerCrop
@@ -3552,6 +3555,9 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id root_drawer
+id root_proses
+id root_utama
 id rounded
 id row_index_key
 id save_non_transition_alpha

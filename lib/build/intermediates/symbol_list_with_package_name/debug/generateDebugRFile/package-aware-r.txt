@@ -38,6 +38,7 @@ drawable github
 drawable ikon
 drawable ikon_pilih_folder
 drawable ikon_utama
+drawable kaca_pembesar
 drawable kanan
 drawable keluar
 drawable kode_editor

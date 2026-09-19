@@ -113,10 +113,10 @@ class TerminalView @JvmOverloads constructor(
             val baru = (ime.bottom - bars.bottom).coerceAtLeast(0)
             if (baru != tinggiIme) {
                 tinggiIme = baru
-                forceScrollToBottom = true   // keyboard berubah → tempel ke prompt
+                forceScrollToBottom = true   
                 invalidate()
             }
-            insets   // tidak diteruskan, view ini menangani sendiri
+            insets  
         }
         ViewCompat.requestApplyInsets(this)
     }

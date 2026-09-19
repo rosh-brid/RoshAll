@@ -12,53 +12,53 @@
 8-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:5:22-78
 9
 10    <application android:requestLegacyExternalStorage="true" >
-10-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:7:5-25:19
+10-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:7:5-27:19
 10-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:8:9-52
 11        <activity
-11-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:9:9-24:20
+11-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:10:9-25:20
 12            android:name="rosh.code.Code"
-12-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:11:13-33
+12-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:12:13-33
 13            android:exported="true" >
-13-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:10:13-36
+13-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:11:13-36
 14            <intent-filter>
-14-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:12:13-18:29
+14-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:13:13-19:29
 15                <action android:name="android.intent.action.VIEW" />
-15-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:13:17-69
-15-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:13:25-66
+15-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:14:17-69
+15-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:14:25-66
 16                <action android:name="android.intent.action.EDIT" />
-16-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:14:17-69
-16-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:14:25-66
+16-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:15:17-69
+16-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:15:25-66
 17
 18                <category android:name="android.intent.category.DEFAULT" />
-18-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:15:17-76
-18-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:15:27-73
+18-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:17-76
+18-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:27-73
 19
 20                <data
-20-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:17-73
+20-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:17:17-73
 21                    android:mimeType="*/*"
-21-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:48-70
+21-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:17:48-70
 22                    android:scheme="content" />
-22-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:23-47
+22-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:17:23-47
 23                <data
-23-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:17-73
+23-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:17:17-73
 24                    android:mimeType="*/*"
-24-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:48-70
+24-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:17:48-70
 25                    android:scheme="file" />
-25-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:23-47
+25-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:17:23-47
 26            </intent-filter>
 27            <intent-filter>
-27-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:19:13-23:29
+27-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:20:13-24:29
 28                <action android:name="android.intent.action.SEND" />
-28-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:20:17-69
-28-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:20:25-66
+28-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:21:17-69
+28-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:21:25-66
 29
 30                <category android:name="android.intent.category.DEFAULT" />
-30-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:15:17-76
-30-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:15:27-73
+30-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:17-76
+30-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:27-73
 31
 32                <data android:mimeType="text/plain" />
-32-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:17-73
-32-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:16:48-70
+32-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:17:17-73
+32-->/storage/emulated/0/coding/RoshAll/code/src/main/AndroidManifest.xml:17:48-70
 33            </intent-filter>
 34        </activity>
 35    </application>

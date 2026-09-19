@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -22,6 +23,12 @@ public final class BrowserBinding implements ViewBinding {
   private final DrawerLayout rootView;
 
   @NonNull
+  public final LinearLayout anakProses;
+
+  @NonNull
+  public final ImageView cari;
+
+  @NonNull
   public final EditText link;
 
   @NonNull
@@ -31,14 +38,30 @@ public final class BrowserBinding implements ViewBinding {
   public final DrawerLayout pusat;
 
   @NonNull
+  public final LinearLayout rootDrawer;
+
+  @NonNull
+  public final LinearLayout rootProses;
+
+  @NonNull
+  public final LinearLayout rootUtama;
+
+  @NonNull
   public final WebView web;
 
-  private BrowserBinding(@NonNull DrawerLayout rootView, @NonNull EditText link,
-      @NonNull ImageView nav, @NonNull DrawerLayout pusat, @NonNull WebView web) {
+  private BrowserBinding(@NonNull DrawerLayout rootView, @NonNull LinearLayout anakProses,
+      @NonNull ImageView cari, @NonNull EditText link, @NonNull ImageView nav,
+      @NonNull DrawerLayout pusat, @NonNull LinearLayout rootDrawer,
+      @NonNull LinearLayout rootProses, @NonNull LinearLayout rootUtama, @NonNull WebView web) {
     this.rootView = rootView;
+    this.anakProses = anakProses;
+    this.cari = cari;
     this.link = link;
     this.nav = nav;
     this.pusat = pusat;
+    this.rootDrawer = rootDrawer;
+    this.rootProses = rootProses;
+    this.rootUtama = rootUtama;
     this.web = web;
   }
 
@@ -69,6 +92,18 @@ public final class BrowserBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.anak_proses;
+      LinearLayout anakProses = ViewBindings.findChildViewById(rootView, id);
+      if (anakProses == null) {
+        break missingId;
+      }
+
+      id = R.id.cari;
+      ImageView cari = ViewBindings.findChildViewById(rootView, id);
+      if (cari == null) {
+        break missingId;
+      }
+
       id = R.id.link;
       EditText link = ViewBindings.findChildViewById(rootView, id);
       if (link == null) {
@@ -83,13 +118,32 @@ public final class BrowserBinding implements ViewBinding {
 
       DrawerLayout pusat = (DrawerLayout) rootView;
 
+      id = R.id.root_drawer;
+      LinearLayout rootDrawer = ViewBindings.findChildViewById(rootView, id);
+      if (rootDrawer == null) {
+        break missingId;
+      }
+
+      id = R.id.root_proses;
+      LinearLayout rootProses = ViewBindings.findChildViewById(rootView, id);
+      if (rootProses == null) {
+        break missingId;
+      }
+
+      id = R.id.root_utama;
+      LinearLayout rootUtama = ViewBindings.findChildViewById(rootView, id);
+      if (rootUtama == null) {
+        break missingId;
+      }
+
       id = R.id.web;
       WebView web = ViewBindings.findChildViewById(rootView, id);
       if (web == null) {
         break missingId;
       }
 
-      return new BrowserBinding((DrawerLayout) rootView, link, nav, pusat, web);
+      return new BrowserBinding((DrawerLayout) rootView, anakProses, cari, link, nav, pusat,
+          rootDrawer, rootProses, rootUtama, web);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

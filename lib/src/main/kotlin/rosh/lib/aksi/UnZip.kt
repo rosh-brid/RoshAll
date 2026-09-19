@@ -34,20 +34,14 @@ class UnZip(private val kelas: Activity) {
     }
 
     fun setDir(terima: String?) { dir = terima }
-
     fun setTarget(terima: String) {
         target = terima
         namaZip.text = File(terima).name
     }
-
     fun setOnSelesai(listener: (Boolean) -> Unit) { onSelesai = listener }
 
-    // ==================== ENTRY POINT ====================
-
-    fun startGz() = jalankan(true)   // tar.gz / tgz (symlink otomatis didukung tar)
-    fun startZip() = jalankan(false) // zip
-
-    // ==================== MESIN UTAMA (ProcessBuilder + sh) ====================
+    fun startGz() = jalankan(true)  
+    fun startZip() = jalankan(false) 
 
     private fun jalankan(isTar: Boolean) {
         mulaiUlang()
@@ -61,7 +55,6 @@ class UnZip(private val kelas: Activity) {
                 val src = kutip(target)
                 val dst = kutip(basis.absolutePath)
 
-                // --- 1. Hitung total entri untuk persentase ---
                 val cmdHitung = if (isTar)
                     "tar -tzf $src 2>/dev/null | wc -l"
                 else
@@ -69,7 +62,6 @@ class UnZip(private val kelas: Activity) {
 
                 val total = shell(cmdHitung).trim().toLongOrNull() ?: 0L
 
-                // --- 2. Ekstrak dengan verbose, tangkap output per baris ---
                 val cmdEkstrak = if (isTar)
                     "tar -xzvf $src -C $dst 2>&1"
                 else
@@ -102,7 +94,6 @@ class UnZip(private val kelas: Activity) {
         }.start()
     }
 
-    /** Jalankan perintah shell sederhana, kembalikan output stdout. */
     private fun shell(cmd: String): String {
         val p = ProcessBuilder("sh", "-c", cmd).start()
         val hasil = p.inputStream.bufferedReader().readText()
@@ -110,16 +101,9 @@ class UnZip(private val kelas: Activity) {
         return hasil
     }
 
-    /** Kutip path agar aman dari spasi/karakter khusus, escape single quote. */
     private fun kutip(path: String): String =
         "'" + path.replace("'", "'\\''") + "'"
 
-    /**
-     * Bersihkan baris output verbose:
-     * - tar  (toybox/busybox): biasanya langsung nama file
-     * - tar  (GNU): "drwxr-xr-x user/group  1234 2024-01-01 00:00 nama/"
-     * - unzip: "  inflating: nama" / "extracting: nama" / "creating: nama/"
-     */
     private fun bersihkanBaris(baris: String, isTar: Boolean): String {
         var s = baris.trim()
         if (s.isEmpty()) return ""
@@ -136,13 +120,11 @@ class UnZip(private val kelas: Activity) {
             return s
         }
 
-        // Format GNU tar: kolom permission owner/group ukuran tanggal waktu nama
         val regexGnu = Regex("^[dl\\-bcps][rwxstT\\-]{9}[.+]?\\s+\\S+/\\S+\\s+\\d+\\s+[\\d\\-]+\\s+[\\d:]+\\s+(.*)$")
         regexGnu.find(s)?.let { return it.groupValues[1] }
         return s
     }
 
-    // ==================== UI ====================
 
     private fun mulaiUlang() {
         batal = false
@@ -157,22 +139,31 @@ class UnZip(private val kelas: Activity) {
     }
 
     private fun selesai(sukses: Boolean) {
-        kelas.runOnUiThread {
-            when {
-                sukses -> {
-                    persen.text = "100%"
-                    namaProses.text = "Selesai"
-                    pop.dismiss()
-                }
-                batal -> { /* pengguna membatalkan, popup sudah ditutup */ }
-                else -> {
-                    namaProses.text = "Gagal!"
-                    Toast.makeText(kelas, "Ekstraksi gagal", Toast.LENGTH_SHORT).show()
-                }
+    kelas.runOnUiThread {
+        when {
+            sukses -> {
+                persen.text = "100%"
+                namaProses.text = "Selesai"
+                pop.dismiss()
             }
-            onSelesai?.invoke(sukses)
+
+            batal -> {
+                // batal
+            }
+
+            else -> {
+                namaProses.text = "Gagal!"
+                Toast.makeText(
+                    kelas,
+                    "Ekstraksi gagal",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
         }
+
+        onSelesai?.invoke(sukses)
     }
+}
 
     private fun folderTujuan(): File {
         val d = dir

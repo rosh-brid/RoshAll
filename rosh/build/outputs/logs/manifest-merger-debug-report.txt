@@ -5,11 +5,11 @@ INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.x
 INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-46:12
 INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:2:1-46:12
 MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:2:1-21:12
-MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-19:12
+MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-36:12
 MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-17:12
 MERGED from [:browser] /storage/emulated/0/coding/RoshAll/browser/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-9:12
 MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-37:12
-MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-31:12
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.databinding:viewbinding:8.9.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/180f2080d0af5afc9f1f31e22a327685/transformed/viewbinding-8.9.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a75b7acbc6e74d769388802345f258e5/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/914853f07f848579ad8318f1ad48d9a1/transformed/constraintlayout-2.2.2/AndroidManifest.xml:2:1-9:12
@@ -81,14 +81,14 @@ ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:
 INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:4:5-44:19
 MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:14:5-19:19
 MERGED from [logger-runtime.aar] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/cf9f77fa60e9469e46084a5dcd47658a/transformed/logger-runtime/AndroidManifest.xml:14:5-19:19
-MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-17:19
-MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-17:19
+MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:5-34:19
+MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:5-34:19
 MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-15:19
 MERGED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-15:19
 MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-35:19
 MERGED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-35:19
-MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-29:19
-MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-29:19
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-13:19
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-13:19
 MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a75b7acbc6e74d769388802345f258e5/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/a75b7acbc6e74d769388802345f258e5/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/914853f07f848579ad8318f1ad48d9a1/transformed/constraintlayout-2.2.2/AndroidManifest.xml:7:5-20
@@ -118,7 +118,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide
 	android:requestRawExternalStorageAccess
 		ADDED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:9-55
 	android:requestLegacyExternalStorage
-		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:9-52
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:9-52
 	android:extractNativeLibs
 		INJECTED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml
 	android:appComponentFactory
@@ -128,7 +128,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /data/user/0/com.tom.rv2ide
 	android:label
 		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:7:9-41
 	android:requestForegroundServiceExemption
-		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:9-57
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:9-57
 	android:roundIcon
 		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:8:9-49
 	android:icon
@@ -155,6 +155,10 @@ ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:
 		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:16:27-74
 activity#rosh.terminal.Terminal
 ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:20:9-24:20
+MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:9-24:20
+MERGED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:9-24:20
+	android:windowSoftInputMode
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-55
 	android:exported
 		ADDED from /storage/emulated/0/coding/RoshAll/rosh/src/main/AndroidManifest.xml:22:13-36
 	android:name
@@ -367,6 +371,38 @@ uses-permission#android.permission.READ_LOGS
 ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-68
 	android:name
 		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:5-77
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-77
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-89
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-89
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-89
+	android:name
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:22-86
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:5-78
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-78
+MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:22-75
+service#rosh.terminal.exec.ShellCustom
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:9-33:19
+	android:exported
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-37
+	android:foregroundServiceType
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:13-55
+	android:name
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:13-58
+property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
+ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:13-32:58
+	android:value
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:32:17-55
+	android:name
+		ADDED from [:terminal] /storage/emulated/0/coding/RoshAll/terminal/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:17-76
 uses-permission#android.permission.POST_NOTIFICATIONS
 ADDED from [:berkas] /storage/emulated/0/coding/RoshAll/berkas/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-77
 MERGED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-77
@@ -399,44 +435,6 @@ action#android.intent.action.SEND
 ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:17-69
 	android:name
 		ADDED from [:code] /storage/emulated/0/coding/RoshAll/code/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:25-66
-uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-78
-	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-75
-uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-77
-	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-74
-uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
-ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-89
-	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-86
-service#rosh.lib.exec.ShellCustom
-ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:9-20:19
-	android:exported
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-36
-	android:foregroundServiceType
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-55
-	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-53
-property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
-ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-19:59
-	android:value
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-56
-	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:17-76
-receiver#rosh.lib.exec.TutupService
-ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:9-28:20
-	android:exported
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-37
-	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-54
-intent-filter#action:name:rosh.lib.exec.TUTUP_TERMINAL
-ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:13-27:29
-action#rosh.lib.exec.TUTUP_TERMINAL
-ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:17-71
-	android:name
-		ADDED from [:lib] /storage/emulated/0/coding/RoshAll/lib/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:25-68
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:21.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/530afe3bf3364eb957d3fbad4dded7e2/transformed/play-services-auth-21.4.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents

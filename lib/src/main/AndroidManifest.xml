@@ -9,22 +9,5 @@
     <application
         android:requestLegacyExternalStorage="true">
         
-        <service
-            android:name="rosh.lib.exec.ShellCustom"
-            android:foregroundServiceType="specialUse"
-            android:exported="true">
-            <property
-                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="Custom Shell is Running" />
-        </service>
-        
-        <receiver
-            android:name="rosh.lib.exec.TutupService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="rosh.lib.exec.TUTUP_TERMINAL" />
-            </intent-filter>
-        </receiver>
-        
     </application>
 </manifest>

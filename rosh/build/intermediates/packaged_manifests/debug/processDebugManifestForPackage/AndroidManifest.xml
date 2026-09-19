@@ -22,10 +22,10 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_LOGS" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <permission
         android:name="rosh.rosh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -57,7 +57,8 @@
         </activity>
         <activity
             android:name="rosh.terminal.Terminal"
-            android:exported="true" >
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" >
         </activity>
         <activity
             android:name="rosh.berkas.Berkas"
@@ -99,21 +100,13 @@
             android:exported="true" />
 
         <service
-            android:name="rosh.lib.exec.ShellCustom"
-            android:exported="true"
+            android:name="rosh.terminal.exec.ShellCustom"
+            android:exported="false"
             android:foregroundServiceType="specialUse" >
             <property
                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="Custom Shell is Running" />
+                android:value="Terminal shell session" />
         </service>
-
-        <receiver
-            android:name="rosh.lib.exec.TutupService"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="rosh.lib.exec.TUTUP_TERMINAL" />
-            </intent-filter>
-        </receiver>
 
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"

@@ -69,24 +69,6 @@
             android:name="io.github.mohammedbaqernull.logger.logwire.LogWireInitializer"
             android:authorities="rosh.code.test.logwire.initializer"
             android:exported="true" />
-
-        <service
-            android:name="rosh.lib.exec.ShellCustom"
-            android:exported="true"
-            android:foregroundServiceType="specialUse" >
-            <property
-                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="Custom Shell is Running" />
-        </service>
-
-        <receiver
-            android:name="rosh.lib.exec.TutupService"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="rosh.lib.exec.TUTUP_TERMINAL" />
-            </intent-filter>
-        </receiver>
-
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="rosh.code.test.androidx-startup"

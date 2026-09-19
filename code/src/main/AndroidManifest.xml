@@ -6,6 +6,7 @@
 
     <application
         android:requestLegacyExternalStorage="true">
+        
         <activity
             android:exported="true"
             android:name=".Code">
@@ -22,5 +23,6 @@
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
+        
     </application>
 </manifest>

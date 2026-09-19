@@ -1,9 +1,20 @@
 R_DEF: Internal format may change without notice
 local
+id anak
+id close
+id download
+id full
+id internal
+id inti
 id keluar
+id minimize
 id mode
 id pusat
 id root_drawer
 id root_utama
+id tempat_geser
 id terminal
+id terminal_pop
+layout pop_alert_terminal
+layout pop_dapatkan_root
 layout terminal

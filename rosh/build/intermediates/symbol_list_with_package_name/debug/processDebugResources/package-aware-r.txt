@@ -3144,6 +3144,7 @@ drawable ikon
 drawable ikon_pilih_folder
 drawable ikon_utama
 drawable indeterminate_static
+drawable kaca_pembesar
 drawable kanan
 drawable keluar
 drawable kode_editor
@@ -3333,6 +3334,7 @@ id all
 id allStates
 id always
 id anak
+id anak_proses
 id anak_view_persen
 id animateToEnd
 id animateToStart
@@ -3367,6 +3369,7 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cari
 id carryVelocity
 id centang
 id center
@@ -3386,6 +3389,7 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id close
 id closest
 id code
 id collapseActionView
@@ -3432,6 +3436,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id download
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3476,6 +3481,7 @@ id follow
 id forever
 id fragment_container_view_tag
 id frost
+id full
 id fullscreen_header
 id gambar
 id gambar_tema
@@ -3510,6 +3516,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id internal
 id inti
 id invisible
 id inward
@@ -3567,6 +3574,7 @@ id memo_usb
 id message
 id middle
 id mini
+id minimize
 id mode
 id month_grid
 id month_navigation_bar
@@ -3693,6 +3701,7 @@ id rightToLeft
 id right_icon
 id right_side
 id root_drawer
+id root_proses
 id root_utama
 id rounded
 id row_index_key
@@ -3779,9 +3788,11 @@ id tanda
 id tema
 id tempat_alat
 id tempat_folder
+id tempat_geser
 id tempat_nama_file
 id tempel
 id terminal
+id terminal_pop
 id text
 id text2
 id textEnd
@@ -4055,6 +4066,8 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pop_alert_terminal
+layout pop_dapatkan_root
 layout pop_file_terpilih
 layout pop_pesan
 layout pop_unduh_langsung

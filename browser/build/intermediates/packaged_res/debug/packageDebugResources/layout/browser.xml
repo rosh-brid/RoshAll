@@ -9,7 +9,8 @@
     <LinearLayout
          android:layout_height="match_parent"
          android:layout_width="match_parent"
-         android:orientation="vertical">
+         android:orientation="vertical"
+         android:id="@+id/root_utama">
 
         <FrameLayout
              android:layout_height="50dp"
@@ -29,15 +30,39 @@
                  android:layout_width="200dp"
                  android:layout_marginEnd="10dp"
                  android:gravity="center_vertical"
-                 android:textColor="@color/tulisan"
                  android:textSize="14sp"
-                 android:inputType="textWebEditText"
                  android:fontFamily="@font/nateli"
+                 android:textColor="@color/tulisan"
+                 android:inputType="textWebEditText"
                  android:textStyle="italic"
                  android:layout_gravity="center"
                  android:id="@+id/link" />
 
+            <ImageView
+                 android:layout_height="40dp"
+                 android:layout_width="40dp"
+                 android:layout_marginEnd="10dp"
+                 android:src="@drawable/kaca_pembesar"
+                 android:layout_gravity="end|center_vertical"
+                 android:id="@+id/cari" />
+
         </FrameLayout>
+
+        <LinearLayout
+             android:layout_height="5dp"
+             android:layout_width="match_parent"
+             android:background="@color/bg_pop"
+             android:id="@+id/root_proses">
+
+            <LinearLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="wrap_content"
+                 android:background="#00ff00"
+                 android:id="@+id/anak_proses">
+
+            </LinearLayout>
+
+        </LinearLayout>
 
         <android.webkit.WebView
              android:layout_height="match_parent"
@@ -54,7 +79,17 @@
          android:layout_width="310dp"
          android:background="@color/bg"
          android:orientation="vertical"
+         android:id="@+id/root_drawer"
          android:layout_gravity="start">
+
+        <FrameLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:background="@drawable/bg_kotak"
+             android:layout_margin="10dp"
+             android:backgroundTint="@color/ungu">
+
+        </FrameLayout>
 
     </LinearLayout>
 

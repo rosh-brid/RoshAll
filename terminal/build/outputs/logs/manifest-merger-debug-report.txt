@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:2:1-15:12
-INJECTED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:2:1-15:12
+ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:2:1-35:12
 	package
 		INJECTED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml
 	xmlns:android
@@ -30,12 +30,46 @@ uses-permission#android.permission.READ_LOGS
 ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:8:5-67
 	android:name
 		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:9:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:10:5-89
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:10:22-86
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:11:22-75
 application
-ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:10:5-14:19
+ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:13:5-34:19
 	android:requestLegacyExternalStorage
-		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:12:9-52
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:15:9-52
 	android:requestForegroundServiceExemption
-		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:11:9-57
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:14:9-57
+activity#rosh.terminal.Terminal
+ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:17:9-22:20
+	android:windowSoftInputMode
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:19:13-55
+	android:exported
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:20:13-37
+service#rosh.terminal.exec.ShellCustom
+ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:24:9-33:19
+	android:exported
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:27:13-37
+	android:foregroundServiceType
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:26:13-55
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:25:13-45
+property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
+ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:29:13-31:58
+	android:value
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:31:17-55
+	android:name
+		ADDED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml:30:17-76
 uses-sdk
 INJECTED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /storage/emulated/0/coding/RoshAll/terminal/src/main/AndroidManifest.xml
