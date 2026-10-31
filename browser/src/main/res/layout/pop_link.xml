@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="@color/log"
+     android:gravity="center"
+     android:id="@+id/inti">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:background="@drawable/bg_kotak"
+         android:padding="5dp"
+         android:layout_margin="15dp"
+         android:orientation="vertical"
+         android:backgroundTint="@color/pop">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_margin="5dp"
+             android:textSize="18sp"
+             android:text="Search" />
+
+        <ScrollView
+             android:layout_height="200dp"
+             android:layout_width="match_parent"
+             android:layout_margin="25dp">
+
+            <EditText
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:hint="Input Link"
+                 android:id="@+id/tulis" />
+
+        </ScrollView>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="end"
+             android:layout_margin="15dp">
+
+            <TextView
+                 android:layout_height="40dp"
+                 android:layout_width="80dp"
+                 android:gravity="center"
+                 android:text="Clear"
+                 android:id="@+id/c" />
+
+            <TextView
+                 android:layout_height="40dp"
+                 android:layout_width="80dp"
+                 android:gravity="center"
+                 android:text="Cencel"
+                 android:id="@+id/n" />
+
+            <TextView
+                 android:layout_height="40dp"
+                 android:layout_width="80dp"
+                 android:gravity="center"
+                 android:text="Next"
+                 android:id="@+id/y" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

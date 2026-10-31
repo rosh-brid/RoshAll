@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<resources>
+    <color name="bg">#ffffff</color>
+    <color name="log">#50aaaaaa</color>
+    <color name="text">#000000</color>
+    <color name="parent">#aaffff</color>
+    <color name="frist">#ffaaff</color>
+    <color name="pop">#aaaaaa</color>
+    
+    <color name="ui_bg">#80ffffff</color>
+    <color name="ui_frist">#80ffaaff</color>
+    <color name="ui_parent">#80aaffff</color>
+</resources>

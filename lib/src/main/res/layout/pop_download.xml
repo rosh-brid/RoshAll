@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:gravity="center"
+     android:background="@color/log"
+     android:id="@+id/inti">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:background="@drawable/bg_kotak"
+         android:padding="5dp"
+         android:layout_margin="15dp"
+         android:orientation="vertical"
+         android:backgroundTint="@color/pop"
+         android:id="@+id/anak">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:background="@drawable/bg_kotak"
+             android:padding="10dp"
+             android:layout_margin="5dp"
+             android:textSize="18sp"
+             android:fontFamily="@font/alkdots"
+             android:backgroundTint="@color/bg"
+             android:id="@+id/judul"
+             android:text="Download" />
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:layout_margin="25dp"
+             android:orientation="vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_marginBottom="3dp"
+                 android:textSize="14sp"
+                 android:textStyle="italic|bold"
+                 android:text="Input Link" />
+
+            <EditText
+                 android:layout_height="50dp"
+                 android:layout_width="match_parent"
+                 android:layout_marginBottom="20dp"
+                 android:gravity="center_vertical"
+                 android:background="@drawable/bg_kotak"
+                 android:padding="5dp"
+                 android:textSize="14sp"
+                 android:backgroundTint="@color/parent"
+                 android:textStyle="italic"
+                 android:id="@+id/link" />
+
+            <TextView
+                 android:layout_height="40dp"
+                 android:layout_width="wrap_content"
+                 android:background="@drawable/bg_kotak"
+                 android:gravity="center"
+                 android:padding="5dp"
+                 android:backgroundTint="@color/parent"
+                 android:maxWidth="200dp"
+                 android:maxLines="1"
+                 android:id="@+id/tombol_folder"
+                 android:layout_gravity="center_horizontal"
+                 android:text="Select Directory" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="end"
+             android:layout_margin="15dp">
+
+            <TextView
+                 android:layout_height="40dp"
+                 android:layout_width="80dp"
+                 android:visibility="gone"
+                 android:gravity="center"
+                 android:background="@drawable/bg_kotak"
+                 android:backgroundTint="@color/bg"
+                 android:text="Cencel"
+                 android:id="@+id/n" />
+
+            <TextView
+                 android:layout_height="40dp"
+                 android:layout_width="80dp"
+                 android:visibility="gone"
+                 android:gravity="center"
+                 android:background="@drawable/bg_kotak"
+                 android:backgroundTint="@color/bg"
+                 android:text="Okay"
+                 android:id="@+id/y" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

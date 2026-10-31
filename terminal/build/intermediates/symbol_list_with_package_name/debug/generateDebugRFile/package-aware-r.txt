@@ -1,0 +1,3 @@
+rosh.terminal
+id pusat
+layout terminal

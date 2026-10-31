@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:id="@+id/pusat">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+
+        <FrameLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:background="@color/bg">
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/nav"
+                 android:layout_marginStart="10dp"
+                 android:layout_gravity="center_vertical|start"
+                 android:id="@+id/nav" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/new_folder"
+                 android:layout_marginStart="100dp"
+                 android:layout_gravity="center_vertical|start"
+                 android:id="@+id/baru" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/sort"
+                 android:layout_marginStart="150dp"
+                 android:layout_gravity="center_vertical|start"
+                 android:id="@+id/urut" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/search"
+                 android:layout_marginStart="200dp"
+                 android:layout_gravity="center_vertical|start"
+                 android:id="@+id/cari" />
+
+        </FrameLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:layout_margin="5dp"
+             android:textSize="14sp"
+             android:textIsSelectable="true"
+             android:id="@+id/jalur"
+             android:text="/"
+             android:textStyle="italic" />
+
+        <ScrollView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent">
+
+            <lib.widget.RoshGrid
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:id="@+id/grid"
+                 android:columnCount="4" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="310dp"
+         android:background="@color/bg"
+         android:orientation="vertical"
+         android:layout_gravity="start">
+
+        <FrameLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:background="@drawable/bg_card"
+             android:layout_margin="10dp">
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/exit"
+                 android:layout_marginStart="10dp"
+                 android:layout_gravity="center_vertical|start"
+                 android:id="@+id/keluar" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/close"
+                 android:layout_marginEnd="10dp"
+                 android:layout_gravity="center_vertical|end"
+                 android:id="@+id/tutup" />
+
+        </FrameLayout>
+
+        <ScrollView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_margin="10dp">
+
+            <LinearLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:orientation="vertical">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:gravity="center_vertical"
+                     android:padding="5dp"
+                     android:id="@+id/memo_app">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/ikon"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:textStyle="italic|bold"
+                         android:text="App Storage" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:gravity="center_vertical"
+                     android:padding="5dp"
+                     android:id="@+id/memo_lib">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/library"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:textStyle="italic|bold"
+                         android:text="App Library" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:gravity="center_vertical"
+                     android:padding="5dp"
+                     android:id="@+id/app_internal">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/memo_internal"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:textStyle="italic|bold"
+                         android:text="Internal App" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:gravity="center_vertical"
+                     android:padding="5dp"
+                     android:id="@+id/memo_internal">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/memo_internal"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:textStyle="italic|bold"
+                         android:text="Internal Storage" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:gravity="center_vertical"
+                     android:padding="5dp"
+                     android:id="@+id/memo_sd">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/memo_sd_card"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:textStyle="italic|bold"
+                         android:text="External Storage" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:gravity="center_vertical"
+                     android:padding="5dp"
+                     android:id="@+id/from_intent">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/phone_intent"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:textStyle="italic|bold"
+                         android:text="From Intent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:visibility="gone"
+                     android:gravity="center_vertical"
+                     android:padding="5dp"
+                     android:id="@+id/usb">
+
+                    <ImageView
+                         android:layout_height="30dp"
+                         android:layout_width="30dp"
+                         android:src="@drawable/usb"
+                         android:layout_margin="5dp" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:textStyle="italic|bold"
+                         android:text="USB Device" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

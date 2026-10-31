@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />  
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.ACCESS_BLOBS_ACROSS_USERS"/>
+    
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"/>
+    <uses-permission android:name="android.permission.MANAGE_MEDIA"/>
+    <uses-permission android:name="android.permission.MANAGE_WIFI_INTERFACES"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.GLOBAL_SEARCH"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+                
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ikon_utama"
+        android:label="@string/AppName"
+        android:roundIcon="@drawable/ikon_utama"
+        android:supportsRtl="true"
+        android:theme="@style/RoshTheme">
+        
+        <activity
+            android:name=".Main"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="rosh.berkas.Berkas"
+            android:exported="true">
+        </activity>
+        
+        <activity
+            android:name="rosh.code.Code"
+            android:exported="true">
+        
+        </activity>
+        
+        <activity
+            android:name="rosh.terminal.Terminal"
+            android:exported="true">
+        
+        </activity>
+        
+        <activity
+            android:name="rosh.gambar.Gambar"
+            android:exported="true">
+        
+        </activity>
+        
+        <activity
+            android:name="rosh.video.Video"
+            android:exported="true">
+        
+        </activity>
+        
+        <activity
+            android:name="rosh.browser.Browser"
+            android:exported="true">
+        
+        </activity>
+    </application>
+    
+</manifest>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:id="@+id/pusat">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+
+        <FrameLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:background="@color/bg">
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/nav"
+                 android:layout_marginStart="10dp"
+                 android:id="@+id/nav"
+                 android:layout_gravity="center_vertical" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:ellipsize="end"
+                 android:textSize="18sp"
+                 android:maxWidth="200dp"
+                 android:layout_marginStart="70dp"
+                 android:maxLines="1"
+                 android:text="https://www.google.com"
+                 android:layout_gravity="center_vertical|start"
+                 android:id="@+id/link_sekarang" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/browser"
+                 android:layout_marginEnd="10dp"
+                 android:layout_gravity="end|center_vertical"
+                 android:id="@+id/mesin" />
+
+        </FrameLayout>
+
+        <LinearLayout
+             android:layout_height="7dp"
+             android:layout_width="match_parent"
+             android:visibility="gone"
+             android:background="@color/frist"
+             android:id="@+id/proses_root">
+
+            <LinearLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="200dp"
+                 android:background="@color/parent"
+                 android:id="@+id/proses_anak">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.webkit.WebView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_margin="5dp"
+             android:id="@+id/web">
+
+        </android.webkit.WebView>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="310dp"
+         android:background="@color/bg"
+         android:layout_gravity="start">
+
+        <FrameLayout
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:background="@drawable/bg_card"
+             android:layout_margin="10dp">
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/exit"
+                 android:layout_marginStart="10dp"
+                 android:layout_gravity="center_vertical|start"
+                 android:id="@+id/keluar" />
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/close"
+                 android:layout_marginEnd="10dp"
+                 android:layout_gravity="center_vertical|end"
+                 android:id="@+id/tutup" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

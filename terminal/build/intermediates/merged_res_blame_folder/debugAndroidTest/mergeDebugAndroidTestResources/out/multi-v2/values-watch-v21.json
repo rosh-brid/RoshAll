@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "rosh.terminal.test.terminal-mergeDebugAndroidTestResources-36:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.6.1/transforms/89e0cd7c5d05dbb2804754bcca4dedcf/transformed/appcompat-1.8.0/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<resources>
+    <style
+        name="RoshTheme"
+        parent="Theme.Material3.DayNight.NoActionBar">
+    
+        <item name="android:windowBackground">@drawable/bg_campur</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/alk_rounded_mtav_med_webfont</item>
+    </style>
+</resources>

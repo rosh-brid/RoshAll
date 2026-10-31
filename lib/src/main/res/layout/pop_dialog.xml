@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:gravity="center"
+     android:background="@color/log"
+     android:id="@+id/inti">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:background="@drawable/bg_kotak"
+         android:padding="5dp"
+         android:layout_margin="15dp"
+         android:orientation="vertical"
+         android:backgroundTint="@color/pop"
+         android:id="@+id/anak">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:background="@drawable/bg_kotak"
+             android:layout_margin="5dp"
+             android:padding="5dp"
+             android:orientation="horizontal"
+             android:backgroundTint="@color/ui_bg">
+
+            <ImageView
+                 android:layout_height="20dp"
+                 android:layout_width="20dp"
+                 android:src="@drawable/warning"
+                 android:layout_marginEnd="15dp"
+                 android:layout_marginStart="5dp" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:padding="5dp"
+                 android:fontFamily="@font/alkdots"
+                 android:textSize="18sp"
+                 android:textStyle="bold"
+                 android:id="@+id/judul" />
+
+        </LinearLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_margin="25dp"
+             android:textSize="14sp"
+             android:textStyle="italic"
+             android:id="@+id/pesan" />
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="end"
+             android:layout_margin="15dp"
+             android:orientation="horizontal">
+
+            <TextView
+                 android:layout_height="40dp"
+                 android:layout_width="80dp"
+                 android:layout_marginEnd="10dp"
+                 android:gravity="center"
+                 android:background="@drawable/bg_kotak"
+                 android:textSize="16sp"
+                 android:backgroundTint="@color/ui_bg"
+                 android:textStyle="bold"
+                 android:id="@+id/n" />
+
+            <TextView
+                 android:layout_height="40dp"
+                 android:layout_width="80dp"
+                 android:gravity="center"
+                 android:background="@drawable/bg_kotak"
+                 android:textSize="16sp"
+                 android:backgroundTint="@color/ui_bg"
+                 android:textStyle="bold"
+                 android:id="@+id/y" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
